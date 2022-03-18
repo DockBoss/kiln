@@ -1,0 +1,1069 @@
+2022/03/17-15:57:55.981931 2a30 RocksDB version: 6.15.5
+2022/03/17-15:57:55.982194 2a30 Git sha rocksdb_build_git_sha:@abd4b1ff1504ae2a7ed6e60bc9c9797b880c33a5@
+2022/03/17-15:57:55.982212 2a30 Compile date Mar  8 2021
+2022/03/17-15:57:55.982371 2a30 DB SUMMARY
+2022/03/17-15:57:55.982408 2a30 DB Session ID:  1E13AT5XGJNE4N2KKP3M
+2022/03/17-15:57:55.982669 2a30 SST files in C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom dir, Total Num: 0, files: 
+2022/03/17-15:57:55.982697 2a30 Write Ahead Log file in C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom: 
+2022/03/17-15:57:55.982721 2a30                         Options.error_if_exists: 0
+2022/03/17-15:57:55.982825 2a30                       Options.create_if_missing: 1
+2022/03/17-15:57:55.982834 2a30                         Options.paranoid_checks: 1
+2022/03/17-15:57:55.982842 2a30                               Options.track_and_verify_wals_in_manifest: 0
+2022/03/17-15:57:55.982849 2a30                                     Options.env: 0000023EBCE8D8C0
+2022/03/17-15:57:55.982877 2a30                                      Options.fs: Legacy File System
+2022/03/17-15:57:55.982886 2a30                                Options.info_log: 0000023EBDE6DAD0
+2022/03/17-15:57:55.982893 2a30                Options.max_file_opening_threads: 16
+2022/03/17-15:57:55.982900 2a30                              Options.statistics: 0000000000000000
+2022/03/17-15:57:55.982906 2a30                               Options.use_fsync: 0
+2022/03/17-15:57:55.982916 2a30                       Options.max_log_file_size: 0
+2022/03/17-15:57:55.982924 2a30                  Options.max_manifest_file_size: 1073741824
+2022/03/17-15:57:55.982932 2a30                   Options.log_file_time_to_roll: 0
+2022/03/17-15:57:55.982939 2a30                       Options.keep_log_file_num: 1000
+2022/03/17-15:57:55.982947 2a30                    Options.recycle_log_file_num: 0
+2022/03/17-15:57:55.982954 2a30                         Options.allow_fallocate: 1
+2022/03/17-15:57:55.982962 2a30                        Options.allow_mmap_reads: 0
+2022/03/17-15:57:55.982969 2a30                       Options.allow_mmap_writes: 0
+2022/03/17-15:57:55.982977 2a30                        Options.use_direct_reads: 0
+2022/03/17-15:57:55.982984 2a30                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/03/17-15:57:55.982991 2a30          Options.create_missing_column_families: 0
+2022/03/17-15:57:55.982997 2a30                              Options.db_log_dir: 
+2022/03/17-15:57:55.983004 2a30                                 Options.wal_dir: C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom
+2022/03/17-15:57:55.983011 2a30                Options.table_cache_numshardbits: 6
+2022/03/17-15:57:55.983017 2a30                         Options.WAL_ttl_seconds: 0
+2022/03/17-15:57:55.983024 2a30                       Options.WAL_size_limit_MB: 0
+2022/03/17-15:57:55.983031 2a30                        Options.max_write_batch_group_size_bytes: 1048576
+2022/03/17-15:57:55.983037 2a30             Options.manifest_preallocation_size: 4194304
+2022/03/17-15:57:55.983044 2a30                     Options.is_fd_close_on_exec: 1
+2022/03/17-15:57:55.983050 2a30                   Options.advise_random_on_open: 1
+2022/03/17-15:57:55.983057 2a30                    Options.db_write_buffer_size: 0
+2022/03/17-15:57:55.983064 2a30                    Options.write_buffer_manager: 0000023EBD0CBF50
+2022/03/17-15:57:55.983070 2a30         Options.access_hint_on_compaction_start: 1
+2022/03/17-15:57:55.983077 2a30  Options.new_table_reader_for_compaction_inputs: 0
+2022/03/17-15:57:55.983084 2a30           Options.random_access_max_buffer_size: 1048576
+2022/03/17-15:57:55.983090 2a30                      Options.use_adaptive_mutex: 0
+2022/03/17-15:57:55.983097 2a30                            Options.rate_limiter: 0000000000000000
+2022/03/17-15:57:55.983104 2a30     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/03/17-15:57:55.983193 2a30                       Options.wal_recovery_mode: 2
+2022/03/17-15:57:55.983205 2a30                  Options.enable_thread_tracking: 0
+2022/03/17-15:57:55.983212 2a30                  Options.enable_pipelined_write: 0
+2022/03/17-15:57:55.983222 2a30                  Options.unordered_write: 0
+2022/03/17-15:57:55.983229 2a30         Options.allow_concurrent_memtable_write: 1
+2022/03/17-15:57:55.983236 2a30      Options.enable_write_thread_adaptive_yield: 1
+2022/03/17-15:57:55.983243 2a30             Options.write_thread_max_yield_usec: 100
+2022/03/17-15:57:55.983249 2a30            Options.write_thread_slow_yield_usec: 3
+2022/03/17-15:57:55.983256 2a30                               Options.row_cache: None
+2022/03/17-15:57:55.983263 2a30                              Options.wal_filter: None
+2022/03/17-15:57:55.983270 2a30             Options.avoid_flush_during_recovery: 0
+2022/03/17-15:57:55.983277 2a30             Options.allow_ingest_behind: 0
+2022/03/17-15:57:55.983283 2a30             Options.preserve_deletes: 0
+2022/03/17-15:57:55.983290 2a30             Options.two_write_queues: 0
+2022/03/17-15:57:55.983296 2a30             Options.manual_wal_flush: 0
+2022/03/17-15:57:55.983302 2a30             Options.atomic_flush: 0
+2022/03/17-15:57:55.983309 2a30             Options.avoid_unnecessary_blocking_io: 0
+2022/03/17-15:57:55.983315 2a30                 Options.persist_stats_to_disk: 0
+2022/03/17-15:57:55.983322 2a30                 Options.write_dbid_to_manifest: 0
+2022/03/17-15:57:55.983328 2a30                 Options.log_readahead_size: 0
+2022/03/17-15:57:55.983335 2a30                 Options.file_checksum_gen_factory: Unknown
+2022/03/17-15:57:55.983341 2a30                 Options.best_efforts_recovery: 0
+2022/03/17-15:57:55.983348 2a30                Options.max_bgerror_resume_count: 2147483647
+2022/03/17-15:57:55.983355 2a30            Options.bgerror_resume_retry_interval: 1000000
+2022/03/17-15:57:55.983361 2a30             Options.allow_data_in_errors: 0
+2022/03/17-15:57:55.983368 2a30             Options.db_host_id: __hostname__
+2022/03/17-15:57:55.983374 2a30             Options.max_background_jobs: 8
+2022/03/17-15:57:55.983381 2a30             Options.max_background_compactions: 8
+2022/03/17-15:57:55.983387 2a30             Options.max_subcompactions: 1
+2022/03/17-15:57:55.983394 2a30             Options.avoid_flush_during_shutdown: 0
+2022/03/17-15:57:55.983400 2a30           Options.writable_file_max_buffer_size: 1048576
+2022/03/17-15:57:55.983407 2a30             Options.delayed_write_rate : 16777216
+2022/03/17-15:57:55.983413 2a30             Options.max_total_wal_size: 0
+2022/03/17-15:57:55.983420 2a30             Options.delete_obsolete_files_period_micros: 21600000000
+2022/03/17-15:57:55.983426 2a30                   Options.stats_dump_period_sec: 600
+2022/03/17-15:57:55.983433 2a30                 Options.stats_persist_period_sec: 600
+2022/03/17-15:57:55.983440 2a30                 Options.stats_history_buffer_size: 1048576
+2022/03/17-15:57:55.983447 2a30                          Options.max_open_files: -1
+2022/03/17-15:57:55.983453 2a30                          Options.bytes_per_sync: 0
+2022/03/17-15:57:55.983460 2a30                      Options.wal_bytes_per_sync: 0
+2022/03/17-15:57:55.983466 2a30                   Options.strict_bytes_per_sync: 0
+2022/03/17-15:57:55.983473 2a30       Options.compaction_readahead_size: 0
+2022/03/17-15:57:55.983480 2a30                  Options.max_background_flushes: 8
+2022/03/17-15:57:55.983486 2a30 Compression algorithms supported:
+2022/03/17-15:57:55.983567 2a30 	kZSTD supported: 1
+2022/03/17-15:57:55.983579 2a30 	kSnappyCompression supported: 1
+2022/03/17-15:57:55.983586 2a30 	kBZip2Compression supported: 0
+2022/03/17-15:57:55.983593 2a30 	kZlibCompression supported: 1
+2022/03/17-15:57:55.983599 2a30 	kLZ4Compression supported: 1
+2022/03/17-15:57:55.983606 2a30 	kXpressCompression supported: 0
+2022/03/17-15:57:55.983612 2a30 	kLZ4HCCompression supported: 1
+2022/03/17-15:57:55.983619 2a30 	kZSTDNotFinalCompression supported: 1
+2022/03/17-15:57:55.983804 2a30 Fast CRC32 supported: Supported on x86
+2022/03/17-15:57:55.998673 2a30 [db\db_impl\db_impl_open.cc:281] Creating manifest 1 
+2022/03/17-15:57:56.018937 2a30 [db\version_set.cc:4725] Recovering from manifest file: C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/MANIFEST-000001
+2022/03/17-15:57:56.019045 2a30 [db\column_family.cc:597] --------------- Options for column family [default]:
+2022/03/17-15:57:56.019058 2a30               Options.comparator: leveldb.BytewiseComparator
+2022/03/17-15:57:56.019065 2a30           Options.merge_operator: None
+2022/03/17-15:57:56.019072 2a30        Options.compaction_filter: None
+2022/03/17-15:57:56.019078 2a30        Options.compaction_filter_factory: None
+2022/03/17-15:57:56.019084 2a30  Options.sst_partitioner_factory: None
+2022/03/17-15:57:56.019091 2a30         Options.memtable_factory: SkipListFactory
+2022/03/17-15:57:56.019097 2a30            Options.table_factory: BlockBasedTable
+2022/03/17-15:57:56.019178 2a30            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000023EBEB70500)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 1
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0000023EBE44C270
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 16384
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: rocksdb.BuiltinBloomFilter
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 4
+  enable_index_compression: 1
+  block_align: 0
+2022/03/17-15:57:56.019188 2a30        Options.write_buffer_size: 65536
+2022/03/17-15:57:56.019194 2a30  Options.max_write_buffer_number: 4
+2022/03/17-15:57:56.019201 2a30          Options.compression: Snappy
+2022/03/17-15:57:56.019210 2a30                  Options.bottommost_compression: Disabled
+2022/03/17-15:57:56.019218 2a30       Options.prefix_extractor: nullptr
+2022/03/17-15:57:56.019225 2a30   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/03/17-15:57:56.019231 2a30             Options.num_levels: 7
+2022/03/17-15:57:56.019238 2a30        Options.min_write_buffer_number_to_merge: 2
+2022/03/17-15:57:56.019244 2a30     Options.max_write_buffer_number_to_maintain: 0
+2022/03/17-15:57:56.019251 2a30     Options.max_write_buffer_size_to_maintain: 0
+2022/03/17-15:57:56.019259 2a30            Options.bottommost_compression_opts.window_bits: -14
+2022/03/17-15:57:56.019266 2a30                  Options.bottommost_compression_opts.level: 32767
+2022/03/17-15:57:56.019272 2a30               Options.bottommost_compression_opts.strategy: 0
+2022/03/17-15:57:56.019280 2a30         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/03/17-15:57:56.019287 2a30         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/03/17-15:57:56.019293 2a30         Options.bottommost_compression_opts.parallel_threads: 1
+2022/03/17-15:57:56.019301 2a30                  Options.bottommost_compression_opts.enabled: false
+2022/03/17-15:57:56.019307 2a30            Options.compression_opts.window_bits: -14
+2022/03/17-15:57:56.019314 2a30                  Options.compression_opts.level: 32767
+2022/03/17-15:57:56.019321 2a30               Options.compression_opts.strategy: 0
+2022/03/17-15:57:56.019327 2a30         Options.compression_opts.max_dict_bytes: 0
+2022/03/17-15:57:56.019334 2a30         Options.compression_opts.zstd_max_train_bytes: 0
+2022/03/17-15:57:56.019343 2a30         Options.compression_opts.parallel_threads: 1
+2022/03/17-15:57:56.019351 2a30                  Options.compression_opts.enabled: false
+2022/03/17-15:57:56.019357 2a30      Options.level0_file_num_compaction_trigger: 4
+2022/03/17-15:57:56.019364 2a30          Options.level0_slowdown_writes_trigger: 20
+2022/03/17-15:57:56.019370 2a30              Options.level0_stop_writes_trigger: 36
+2022/03/17-15:57:56.019377 2a30                   Options.target_file_size_base: 67108864
+2022/03/17-15:57:56.019384 2a30             Options.target_file_size_multiplier: 1
+2022/03/17-15:57:56.019390 2a30                Options.max_bytes_for_level_base: 268435456
+2022/03/17-15:57:56.019397 2a30 Options.level_compaction_dynamic_level_bytes: 0
+2022/03/17-15:57:56.019403 2a30          Options.max_bytes_for_level_multiplier: 10.000000
+2022/03/17-15:57:56.019418 2a30 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/03/17-15:57:56.019425 2a30 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/03/17-15:57:56.019431 2a30 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/03/17-15:57:56.019437 2a30 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/03/17-15:57:56.019444 2a30 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/03/17-15:57:56.019451 2a30 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/03/17-15:57:56.019457 2a30 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/03/17-15:57:56.019464 2a30       Options.max_sequential_skip_in_iterations: 8
+2022/03/17-15:57:56.019470 2a30                    Options.max_compaction_bytes: 1677721600
+2022/03/17-15:57:56.019477 2a30                        Options.arena_block_size: 8192
+2022/03/17-15:57:56.019484 2a30   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/03/17-15:57:56.019491 2a30   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/03/17-15:57:56.019497 2a30       Options.rate_limit_delay_max_milliseconds: 100
+2022/03/17-15:57:56.019503 2a30                Options.disable_auto_compactions: 0
+2022/03/17-15:57:56.019511 2a30                        Options.compaction_style: kCompactionStyleLevel
+2022/03/17-15:57:56.019519 2a30                          Options.compaction_pri: kMinOverlappingRatio
+2022/03/17-15:57:56.019525 2a30 Options.compaction_options_universal.size_ratio: 1
+2022/03/17-15:57:56.019532 2a30 Options.compaction_options_universal.min_merge_width: 2
+2022/03/17-15:57:56.019538 2a30 Options.compaction_options_universal.max_merge_width: 4294967295
+2022/03/17-15:57:56.019545 2a30 Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/03/17-15:57:56.019552 2a30 Options.compaction_options_universal.compression_size_percent: -1
+2022/03/17-15:57:56.019559 2a30 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/03/17-15:57:56.019565 2a30 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/03/17-15:57:56.019571 2a30 Options.compaction_options_fifo.allow_compaction: 0
+2022/03/17-15:57:56.019579 2a30                   Options.table_properties_collectors: 
+2022/03/17-15:57:56.019585 2a30                   Options.inplace_update_support: 0
+2022/03/17-15:57:56.019591 2a30                 Options.inplace_update_num_locks: 10000
+2022/03/17-15:57:56.019598 2a30               Options.memtable_prefix_bloom_size_ratio: 0.020000
+2022/03/17-15:57:56.019605 2a30               Options.memtable_whole_key_filtering: 1
+2022/03/17-15:57:56.019611 2a30   Options.memtable_huge_page_size: 0
+2022/03/17-15:57:56.019618 2a30                           Options.bloom_locality: 0
+2022/03/17-15:57:56.019624 2a30                    Options.max_successive_merges: 0
+2022/03/17-15:57:56.019631 2a30                Options.optimize_filters_for_hits: 0
+2022/03/17-15:57:56.019637 2a30                Options.paranoid_file_checks: 0
+2022/03/17-15:57:56.019644 2a30                Options.force_consistency_checks: 1
+2022/03/17-15:57:56.019652 2a30                Options.report_bg_io_stats: 0
+2022/03/17-15:57:56.019658 2a30                               Options.ttl: 2592000
+2022/03/17-15:57:56.019731 2a30          Options.periodic_compaction_seconds: 0
+2022/03/17-15:57:56.019743 2a30                    Options.enable_blob_files: false
+2022/03/17-15:57:56.019751 2a30                        Options.min_blob_size: 0
+2022/03/17-15:57:56.019758 2a30                       Options.blob_file_size: 268435456
+2022/03/17-15:57:56.019764 2a30                Options.blob_compression_type: NoCompression
+2022/03/17-15:57:56.019771 2a30       Options.enable_blob_garbage_collection: false
+2022/03/17-15:57:56.019778 2a30   Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/03/17-15:57:56.029319 2a30 [db\version_set.cc:4773] Recovered from manifest file:C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2022/03/17-15:57:56.029340 2a30 [db\version_set.cc:4782] Column family [default] (ID 0), log number is 0
+2022/03/17-15:57:56.029903 2a30 [db\version_set.cc:4083] Creating manifest 3
+2022/03/17-15:57:56.057016 2a30 [db\db_impl\db_impl_open.cc:1701] SstFileManager instance 0000023EBEBC1370
+2022/03/17-15:57:56.057145 2a30 DB pointer 0000023EBEB8B960
+2022/03/17-15:57:59.059645 3c64 [db\db_impl\db_impl.cc:902] ------- DUMPING STATS -------
+2022/03/17-15:57:59.059674 3c64 [db\db_impl\db_impl.cc:903] 
+** DB Stats **
+Uptime(secs): 3.0 total, 3.0 interval
+Cumulative writes: 3 writes, 3 keys, 3 commit groups, 0.8 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 3 writes, 0 syncs, 3.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 3 writes, 3 keys, 3 commit groups, 0.8 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 3 writes, 0 syncs, 3.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Uptime(secs): 3.0 total, 3.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Sum      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Uptime(secs): 3.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2022/03/17-15:58:02.133305 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #7. Immutable memtables: 0.
+2022/03/17-15:58:08.538432 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #8. Immutable memtables: 1.
+2022/03/17-15:58:08.538558 3084 (Original Log Time 2022/03/17-15:58:08.538493) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:08.538578 3084 [db\flush_job.cc:338] [default] [JOB 3] Flushing memtable with next log file: 7
+2022/03/17-15:58:08.538589 3084 [db\flush_job.cc:338] [default] [JOB 3] Flushing memtable with next log file: 8
+2022/03/17-15:58:08.538642 3084 EVENT_LOG_v1 {"time_micros": 1647550688538609, "job": 3, "event": "flush_started", "num_memtables": 2, "num_entries": 2159, "num_deletes": 0, "total_data_size": 94742, "memory_usage": 131576, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:08.538725 3084 [db\flush_job.cc:367] [default] [JOB 3] Level-0 flush table #9: started
+2022/03/17-15:58:08.548083 3084 EVENT_LOG_v1 {"time_micros": 1647550688548037, "cf_name": "default", "job": 3, "event": "table_file_creation", "file_number": 9, "file_size": 1174, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 150, "index_size": 50, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 120, "raw_average_key_size": 40, "raw_value_size": 8, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 3, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550677, "oldest_key_time": 1647550677, "file_creation_time": 1647550688, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:08.548106 3084 [db\flush_job.cc:431] [default] [JOB 3] Level-0 flush table #9: 1174 bytes OK
+2022/03/17-15:58:08.550023 3084 (Original Log Time 2022/03/17-15:58:08.548128) [db\memtable_list.cc:451] [default] Level-0 commit table #9 started
+2022/03/17-15:58:08.550037 3084 (Original Log Time 2022/03/17-15:58:08.549810) [db\memtable_list.cc:631] [default] Level-0 commit table #9: memtable #1 done
+2022/03/17-15:58:08.550044 3084 (Original Log Time 2022/03/17-15:58:08.549815) [db\memtable_list.cc:631] [default] Level-0 commit table #9: memtable #2 done
+2022/03/17-15:58:08.550050 3084 (Original Log Time 2022/03/17-15:58:08.549874) EVENT_LOG_v1 {"time_micros": 1647550688549832, "job": 3, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:08.550057 3084 (Original Log Time 2022/03/17-15:58:08.549896) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[1 0 0 0 0 0 0] max score 0.25
+2022/03/17-15:58:08.550068 3084 [db\db_impl\db_impl_files.cc:420] [JOB 3] Try to delete WAL files size 105537, prev total WAL file size 106419, number of live WAL files 3.
+2022/03/17-15:58:08.553473 3084 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000007.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:08.564406 3084 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000004.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:09.139146 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #10. Immutable memtables: 0.
+2022/03/17-15:58:09.704306 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #11. Immutable memtables: 1.
+2022/03/17-15:58:09.704391 19ec (Original Log Time 2022/03/17-15:58:09.704358) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:09.704412 19ec [db\flush_job.cc:338] [default] [JOB 5] Flushing memtable with next log file: 10
+2022/03/17-15:58:09.704422 19ec [db\flush_job.cc:338] [default] [JOB 5] Flushing memtable with next log file: 11
+2022/03/17-15:58:09.704449 19ec EVENT_LOG_v1 {"time_micros": 1647550689704436, "job": 5, "event": "flush_started", "num_memtables": 2, "num_entries": 2159, "num_deletes": 0, "total_data_size": 94996, "memory_usage": 131496, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:09.704458 19ec [db\flush_job.cc:367] [default] [JOB 5] Level-0 flush table #12: started
+2022/03/17-15:58:09.713950 19ec EVENT_LOG_v1 {"time_micros": 1647550689713895, "cf_name": "default", "job": 5, "event": "table_file_creation", "file_number": 12, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550688, "oldest_key_time": 1647550688, "file_creation_time": 1647550689, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:09.713975 19ec [db\flush_job.cc:431] [default] [JOB 5] Level-0 flush table #12: 1079 bytes OK
+2022/03/17-15:58:09.715661 19ec (Original Log Time 2022/03/17-15:58:09.713996) [db\memtable_list.cc:451] [default] Level-0 commit table #12 started
+2022/03/17-15:58:09.715675 19ec (Original Log Time 2022/03/17-15:58:09.715495) [db\memtable_list.cc:631] [default] Level-0 commit table #12: memtable #1 done
+2022/03/17-15:58:09.715684 19ec (Original Log Time 2022/03/17-15:58:09.715501) [db\memtable_list.cc:631] [default] Level-0 commit table #12: memtable #2 done
+2022/03/17-15:58:09.715692 19ec (Original Log Time 2022/03/17-15:58:09.715533) EVENT_LOG_v1 {"time_micros": 1647550689715518, "job": 5, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [2, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:09.715700 19ec (Original Log Time 2022/03/17-15:58:09.715552) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[2 0 0 0 0 0 0] max score 0.50
+2022/03/17-15:58:09.715714 19ec [db\db_impl\db_impl_files.cc:420] [JOB 5] Try to delete WAL files size 105791, prev total WAL file size 106673, number of live WAL files 3.
+2022/03/17-15:58:09.719068 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000010.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:09.726906 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000008.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:10.352213 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #13. Immutable memtables: 0.
+2022/03/17-15:58:11.043559 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #14. Immutable memtables: 1.
+2022/03/17-15:58:11.043669 1178 (Original Log Time 2022/03/17-15:58:11.043645) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:11.043687 1178 [db\flush_job.cc:338] [default] [JOB 7] Flushing memtable with next log file: 13
+2022/03/17-15:58:11.043706 1178 [db\flush_job.cc:338] [default] [JOB 7] Flushing memtable with next log file: 14
+2022/03/17-15:58:11.043742 1178 EVENT_LOG_v1 {"time_micros": 1647550691043724, "job": 7, "event": "flush_started", "num_memtables": 2, "num_entries": 2160, "num_deletes": 0, "total_data_size": 95040, "memory_usage": 131568, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:11.043752 1178 [db\flush_job.cc:367] [default] [JOB 7] Level-0 flush table #15: started
+2022/03/17-15:58:11.051615 1178 EVENT_LOG_v1 {"time_micros": 1647550691051552, "cf_name": "default", "job": 7, "event": "table_file_creation", "file_number": 15, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550689, "oldest_key_time": 1647550689, "file_creation_time": 1647550691, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:11.051690 1178 [db\flush_job.cc:431] [default] [JOB 7] Level-0 flush table #15: 1079 bytes OK
+2022/03/17-15:58:11.053544 1178 (Original Log Time 2022/03/17-15:58:11.051710) [db\memtable_list.cc:451] [default] Level-0 commit table #15 started
+2022/03/17-15:58:11.053562 1178 (Original Log Time 2022/03/17-15:58:11.053305) [db\memtable_list.cc:631] [default] Level-0 commit table #15: memtable #1 done
+2022/03/17-15:58:11.053572 1178 (Original Log Time 2022/03/17-15:58:11.053311) [db\memtable_list.cc:631] [default] Level-0 commit table #15: memtable #2 done
+2022/03/17-15:58:11.053580 1178 (Original Log Time 2022/03/17-15:58:11.053352) EVENT_LOG_v1 {"time_micros": 1647550691053336, "job": 7, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [3, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:11.053588 1178 (Original Log Time 2022/03/17-15:58:11.053378) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[3 0 0 0 0 0 0] max score 0.75
+2022/03/17-15:58:11.053601 1178 [db\db_impl\db_impl_files.cc:420] [JOB 7] Try to delete WAL files size 105840, prev total WAL file size 106722, number of live WAL files 3.
+2022/03/17-15:58:11.057052 1178 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000013.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:11.061378 1178 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000011.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:11.790283 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #16. Immutable memtables: 0.
+2022/03/17-15:58:12.798502 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #17. Immutable memtables: 1.
+2022/03/17-15:58:12.798575 1b14 (Original Log Time 2022/03/17-15:58:12.798551) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:12.798588 1b14 [db\flush_job.cc:338] [default] [JOB 9] Flushing memtable with next log file: 16
+2022/03/17-15:58:12.798597 1b14 [db\flush_job.cc:338] [default] [JOB 9] Flushing memtable with next log file: 17
+2022/03/17-15:58:12.798630 1b14 EVENT_LOG_v1 {"time_micros": 1647550692798611, "job": 9, "event": "flush_started", "num_memtables": 2, "num_entries": 2163, "num_deletes": 0, "total_data_size": 95172, "memory_usage": 131520, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:12.798640 1b14 [db\flush_job.cc:367] [default] [JOB 9] Level-0 flush table #18: started
+2022/03/17-15:58:12.806845 1b14 EVENT_LOG_v1 {"time_micros": 1647550692806793, "cf_name": "default", "job": 9, "event": "table_file_creation", "file_number": 18, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550691, "oldest_key_time": 1647550691, "file_creation_time": 1647550692, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:12.806864 1b14 [db\flush_job.cc:431] [default] [JOB 9] Level-0 flush table #18: 1079 bytes OK
+2022/03/17-15:58:12.808596 1b14 (Original Log Time 2022/03/17-15:58:12.806883) [db\memtable_list.cc:451] [default] Level-0 commit table #18 started
+2022/03/17-15:58:12.808613 1b14 (Original Log Time 2022/03/17-15:58:12.808459) [db\memtable_list.cc:631] [default] Level-0 commit table #18: memtable #1 done
+2022/03/17-15:58:12.808622 1b14 (Original Log Time 2022/03/17-15:58:12.808463) [db\memtable_list.cc:631] [default] Level-0 commit table #18: memtable #2 done
+2022/03/17-15:58:12.808630 1b14 (Original Log Time 2022/03/17-15:58:12.808486) EVENT_LOG_v1 {"time_micros": 1647550692808476, "job": 9, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [4, 0, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:12.808639 1b14 (Original Log Time 2022/03/17-15:58:12.808508) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[4 0 0 0 0 0 0] max score 1.00
+2022/03/17-15:58:12.808653 1b14 [db\db_impl\db_impl_files.cc:420] [JOB 9] Try to delete WAL files size 105987, prev total WAL file size 106428, number of live WAL files 3.
+2022/03/17-15:58:12.808706 3540 [db\compaction\compaction_job.cc:1884] [default] [JOB 10] Compacting 4@0 files to L1, score 1.00
+2022/03/17-15:58:12.808729 3540 [db\compaction\compaction_job.cc:1888] [default] Compaction start summary: Base version 6 Base level 0, inputs: [18(1079B) 15(1079B) 12(1079B) 9(1174B)]
+2022/03/17-15:58:12.808759 3540 EVENT_LOG_v1 {"time_micros": 1647550692808738, "job": 10, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [18, 15, 12, 9], "score": 1, "input_data_size": 4411}
+2022/03/17-15:58:12.813284 1b14 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000016.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:12.813767 3540 [db\compaction\compaction_job.cc:1521] [default] [JOB 10] Generated table #19: 3 keys, 1170 bytes
+2022/03/17-15:58:12.813831 3540 EVENT_LOG_v1 {"time_micros": 1647550692813793, "cf_name": "default", "job": 10, "event": "table_file_creation", "file_number": 19, "file_size": 1170, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 150, "index_size": 50, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 120, "raw_average_key_size": 40, "raw_value_size": 8, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 3, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550677, "oldest_key_time": 0, "file_creation_time": 1647550692, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:12.819174 3540 [db\compaction\compaction_job.cc:1598] [default] [JOB 10] Compacted 4@0 files to L1 => 1170 bytes
+2022/03/17-15:58:12.819361 1b14 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000014.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:12.820962 3540 (Original Log Time 2022/03/17-15:58:12.820881) [db\compaction\compaction_job.cc:830] [default] compacted to: files[0 1 0 0 0 0 0] max score 0.00, MB/sec: 0.9 rd, 0.2 wr, level 1, files in(4, 0) out(1) MB in(0.0, 0.0) out(0.0), read-write-amplify(1.3) write-amplify(0.3) OK, records in: 6, records dropped: 3 output_compression: Snappy
+2022/03/17-15:58:12.820985 3540 (Original Log Time 2022/03/17-15:58:12.820915) EVENT_LOG_v1 {"time_micros": 1647550692820898, "job": 10, "event": "compaction_finished", "compaction_time_micros": 5152, "compaction_time_cpu_micros": 0, "output_level": 1, "num_output_files": 1, "total_output_size": 1170, "num_input_records": 6, "num_output_records": 3, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 1, 0, 0, 0, 0, 0]}
+2022/03/17-15:58:12.821308 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000018.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:12.821336 3540 EVENT_LOG_v1 {"time_micros": 1647550692821328, "job": 10, "event": "table_file_deletion", "file_number": 18}
+2022/03/17-15:58:12.821549 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000015.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:12.821575 3540 EVENT_LOG_v1 {"time_micros": 1647550692821566, "job": 10, "event": "table_file_deletion", "file_number": 15}
+2022/03/17-15:58:12.821766 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000012.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:12.821791 3540 EVENT_LOG_v1 {"time_micros": 1647550692821782, "job": 10, "event": "table_file_deletion", "file_number": 12}
+2022/03/17-15:58:12.821983 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000009.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:12.822009 3540 EVENT_LOG_v1 {"time_micros": 1647550692822000, "job": 10, "event": "table_file_deletion", "file_number": 9}
+2022/03/17-15:58:13.632917 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #20. Immutable memtables: 0.
+2022/03/17-15:58:14.453656 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #21. Immutable memtables: 1.
+2022/03/17-15:58:14.453718 19ec (Original Log Time 2022/03/17-15:58:14.453706) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:14.453732 19ec [db\flush_job.cc:338] [default] [JOB 12] Flushing memtable with next log file: 20
+2022/03/17-15:58:14.453741 19ec [db\flush_job.cc:338] [default] [JOB 12] Flushing memtable with next log file: 21
+2022/03/17-15:58:14.453766 19ec EVENT_LOG_v1 {"time_micros": 1647550694453753, "job": 12, "event": "flush_started", "num_memtables": 2, "num_entries": 2157, "num_deletes": 0, "total_data_size": 94908, "memory_usage": 131496, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:14.453774 19ec [db\flush_job.cc:367] [default] [JOB 12] Level-0 flush table #22: started
+2022/03/17-15:58:14.461236 19ec EVENT_LOG_v1 {"time_micros": 1647550694461190, "cf_name": "default", "job": 12, "event": "table_file_creation", "file_number": 22, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550692, "oldest_key_time": 1647550692, "file_creation_time": 1647550694, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:14.461256 19ec [db\flush_job.cc:431] [default] [JOB 12] Level-0 flush table #22: 1079 bytes OK
+2022/03/17-15:58:14.463121 19ec (Original Log Time 2022/03/17-15:58:14.461274) [db\memtable_list.cc:451] [default] Level-0 commit table #22 started
+2022/03/17-15:58:14.463137 19ec (Original Log Time 2022/03/17-15:58:14.462953) [db\memtable_list.cc:631] [default] Level-0 commit table #22: memtable #1 done
+2022/03/17-15:58:14.463145 19ec (Original Log Time 2022/03/17-15:58:14.462958) [db\memtable_list.cc:631] [default] Level-0 commit table #22: memtable #2 done
+2022/03/17-15:58:14.463152 19ec (Original Log Time 2022/03/17-15:58:14.462993) EVENT_LOG_v1 {"time_micros": 1647550694462978, "job": 12, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:14.463160 19ec (Original Log Time 2022/03/17-15:58:14.463013) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[1 1 0 0 0 0 0] max score 0.25
+2022/03/17-15:58:14.463172 19ec [db\db_impl\db_impl_files.cc:420] [JOB 12] Try to delete WAL files size 105693, prev total WAL file size 106428, number of live WAL files 3.
+2022/03/17-15:58:14.466762 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000020.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:14.490800 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000017.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:15.948116 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #23. Immutable memtables: 0.
+2022/03/17-15:58:18.596504 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #24. Immutable memtables: 1.
+2022/03/17-15:58:18.596563 c6c (Original Log Time 2022/03/17-15:58:18.596550) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:18.596581 c6c [db\flush_job.cc:338] [default] [JOB 14] Flushing memtable with next log file: 23
+2022/03/17-15:58:18.596592 c6c [db\flush_job.cc:338] [default] [JOB 14] Flushing memtable with next log file: 24
+2022/03/17-15:58:18.596629 c6c EVENT_LOG_v1 {"time_micros": 1647550698596608, "job": 14, "event": "flush_started", "num_memtables": 2, "num_entries": 2155, "num_deletes": 0, "total_data_size": 94820, "memory_usage": 131528, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:18.596641 c6c [db\flush_job.cc:367] [default] [JOB 14] Level-0 flush table #25: started
+2022/03/17-15:58:18.606258 c6c EVENT_LOG_v1 {"time_micros": 1647550698606211, "cf_name": "default", "job": 14, "event": "table_file_creation", "file_number": 25, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550694, "oldest_key_time": 1647550694, "file_creation_time": 1647550698, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:18.606275 c6c [db\flush_job.cc:431] [default] [JOB 14] Level-0 flush table #25: 1079 bytes OK
+2022/03/17-15:58:18.608035 c6c (Original Log Time 2022/03/17-15:58:18.606292) [db\memtable_list.cc:451] [default] Level-0 commit table #25 started
+2022/03/17-15:58:18.608046 c6c (Original Log Time 2022/03/17-15:58:18.607871) [db\memtable_list.cc:631] [default] Level-0 commit table #25: memtable #1 done
+2022/03/17-15:58:18.608051 c6c (Original Log Time 2022/03/17-15:58:18.607876) [db\memtable_list.cc:631] [default] Level-0 commit table #25: memtable #2 done
+2022/03/17-15:58:18.608060 c6c (Original Log Time 2022/03/17-15:58:18.607915) EVENT_LOG_v1 {"time_micros": 1647550698607894, "job": 14, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [2, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:18.608072 c6c (Original Log Time 2022/03/17-15:58:18.607938) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[2 1 0 0 0 0 0] max score 0.50
+2022/03/17-15:58:18.608080 c6c [db\db_impl\db_impl_files.cc:420] [JOB 14] Try to delete WAL files size 105595, prev total WAL file size 105938, number of live WAL files 3.
+2022/03/17-15:58:18.618770 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000023.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:18.621068 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000021.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:21.429052 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #26. Immutable memtables: 0.
+2022/03/17-15:58:23.421371 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #27. Immutable memtables: 1.
+2022/03/17-15:58:23.421439 292c (Original Log Time 2022/03/17-15:58:23.421426) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:23.421457 292c [db\flush_job.cc:338] [default] [JOB 16] Flushing memtable with next log file: 26
+2022/03/17-15:58:23.421469 292c [db\flush_job.cc:338] [default] [JOB 16] Flushing memtable with next log file: 27
+2022/03/17-15:58:23.421518 292c EVENT_LOG_v1 {"time_micros": 1647550703421485, "job": 16, "event": "flush_started", "num_memtables": 2, "num_entries": 2155, "num_deletes": 0, "total_data_size": 94820, "memory_usage": 131520, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:23.421531 292c [db\flush_job.cc:367] [default] [JOB 16] Level-0 flush table #28: started
+2022/03/17-15:58:23.431064 292c EVENT_LOG_v1 {"time_micros": 1647550703431020, "cf_name": "default", "job": 16, "event": "table_file_creation", "file_number": 28, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550698, "oldest_key_time": 1647550698, "file_creation_time": 1647550703, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:23.431083 292c [db\flush_job.cc:431] [default] [JOB 16] Level-0 flush table #28: 1079 bytes OK
+2022/03/17-15:58:23.432807 292c (Original Log Time 2022/03/17-15:58:23.431099) [db\memtable_list.cc:451] [default] Level-0 commit table #28 started
+2022/03/17-15:58:23.432825 292c (Original Log Time 2022/03/17-15:58:23.432619) [db\memtable_list.cc:631] [default] Level-0 commit table #28: memtable #1 done
+2022/03/17-15:58:23.432833 292c (Original Log Time 2022/03/17-15:58:23.432625) [db\memtable_list.cc:631] [default] Level-0 commit table #28: memtable #2 done
+2022/03/17-15:58:23.432840 292c (Original Log Time 2022/03/17-15:58:23.432658) EVENT_LOG_v1 {"time_micros": 1647550703432644, "job": 16, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [3, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:23.432850 292c (Original Log Time 2022/03/17-15:58:23.432680) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[3 1 0 0 0 0 0] max score 0.75
+2022/03/17-15:58:23.432861 292c [db\db_impl\db_impl_files.cc:420] [JOB 16] Try to delete WAL files size 105595, prev total WAL file size 105938, number of live WAL files 3.
+2022/03/17-15:58:23.436330 292c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000026.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:23.444055 292c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000024.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:25.660293 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #29. Immutable memtables: 0.
+2022/03/17-15:58:26.839956 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #30. Immutable memtables: 1.
+2022/03/17-15:58:26.840025 1040 (Original Log Time 2022/03/17-15:58:26.840014) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:26.840039 1040 [db\flush_job.cc:338] [default] [JOB 18] Flushing memtable with next log file: 29
+2022/03/17-15:58:26.840048 1040 [db\flush_job.cc:338] [default] [JOB 18] Flushing memtable with next log file: 30
+2022/03/17-15:58:26.840082 1040 EVENT_LOG_v1 {"time_micros": 1647550706840060, "job": 18, "event": "flush_started", "num_memtables": 2, "num_entries": 2154, "num_deletes": 0, "total_data_size": 94776, "memory_usage": 131512, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:26.840091 1040 [db\flush_job.cc:367] [default] [JOB 18] Level-0 flush table #31: started
+2022/03/17-15:58:26.857387 1040 EVENT_LOG_v1 {"time_micros": 1647550706857310, "cf_name": "default", "job": 18, "event": "table_file_creation", "file_number": 31, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550703, "oldest_key_time": 1647550703, "file_creation_time": 1647550706, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:26.857412 1040 [db\flush_job.cc:431] [default] [JOB 18] Level-0 flush table #31: 1079 bytes OK
+2022/03/17-15:58:26.859106 1040 (Original Log Time 2022/03/17-15:58:26.857432) [db\memtable_list.cc:451] [default] Level-0 commit table #31 started
+2022/03/17-15:58:26.859121 1040 (Original Log Time 2022/03/17-15:58:26.858928) [db\memtable_list.cc:631] [default] Level-0 commit table #31: memtable #1 done
+2022/03/17-15:58:26.859129 1040 (Original Log Time 2022/03/17-15:58:26.858933) [db\memtable_list.cc:631] [default] Level-0 commit table #31: memtable #2 done
+2022/03/17-15:58:26.859137 1040 (Original Log Time 2022/03/17-15:58:26.858963) EVENT_LOG_v1 {"time_micros": 1647550706858950, "job": 18, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [4, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:26.859145 1040 (Original Log Time 2022/03/17-15:58:26.858994) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[4 1 0 0 0 0 0] max score 1.00
+2022/03/17-15:58:26.859158 1040 [db\db_impl\db_impl_files.cc:420] [JOB 18] Try to delete WAL files size 105546, prev total WAL file size 106281, number of live WAL files 3.
+2022/03/17-15:58:26.859189 788 [db\compaction\compaction_job.cc:1884] [default] [JOB 19] Compacting 4@0 + 1@1 files to L1, score 1.00
+2022/03/17-15:58:26.859230 788 [db\compaction\compaction_job.cc:1888] [default] Compaction start summary: Base version 11 Base level 0, inputs: [31(1079B) 28(1079B) 25(1079B) 22(1079B)], [19(1170B)]
+2022/03/17-15:58:26.859263 788 EVENT_LOG_v1 {"time_micros": 1647550706859244, "job": 19, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [31, 28, 25, 22], "files_L1": [19], "score": 1, "input_data_size": 5486}
+2022/03/17-15:58:26.862874 1040 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000029.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:26.863212 788 [db\compaction\compaction_job.cc:1521] [default] [JOB 19] Generated table #32: 3 keys, 1170 bytes
+2022/03/17-15:58:26.863284 788 EVENT_LOG_v1 {"time_micros": 1647550706863236, "cf_name": "default", "job": 19, "event": "table_file_creation", "file_number": 32, "file_size": 1170, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 150, "index_size": 50, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 120, "raw_average_key_size": 40, "raw_value_size": 8, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 3, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550677, "oldest_key_time": 0, "file_creation_time": 1647550706, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:26.868663 788 [db\compaction\compaction_job.cc:1598] [default] [JOB 19] Compacted 4@0 + 1@1 files to L1 => 1170 bytes
+2022/03/17-15:58:26.870460 1040 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000027.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:26.871473 788 (Original Log Time 2022/03/17-15:58:26.871404) [db\compaction\compaction_job.cc:830] [default] compacted to: files[0 1 0 0 0 0 0] max score 0.00, MB/sec: 1.3 rd, 0.3 wr, level 1, files in(4, 1) out(1) MB in(0.0, 0.0) out(0.0), read-write-amplify(1.5) write-amplify(0.3) OK, records in: 7, records dropped: 4 output_compression: Snappy
+2022/03/17-15:58:26.871492 788 (Original Log Time 2022/03/17-15:58:26.871440) EVENT_LOG_v1 {"time_micros": 1647550706871416, "job": 19, "event": "compaction_finished", "compaction_time_micros": 4151, "compaction_time_cpu_micros": 0, "output_level": 1, "num_output_files": 1, "total_output_size": 1170, "num_input_records": 7, "num_output_records": 3, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 1, 0, 0, 0, 0, 0]}
+2022/03/17-15:58:26.871788 788 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000031.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:26.871816 788 EVENT_LOG_v1 {"time_micros": 1647550706871807, "job": 19, "event": "table_file_deletion", "file_number": 31}
+2022/03/17-15:58:26.872020 788 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000028.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:26.872044 788 EVENT_LOG_v1 {"time_micros": 1647550706872037, "job": 19, "event": "table_file_deletion", "file_number": 28}
+2022/03/17-15:58:26.872234 788 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000025.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:26.872257 788 EVENT_LOG_v1 {"time_micros": 1647550706872251, "job": 19, "event": "table_file_deletion", "file_number": 25}
+2022/03/17-15:58:26.872439 788 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000022.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:26.872462 788 EVENT_LOG_v1 {"time_micros": 1647550706872456, "job": 19, "event": "table_file_deletion", "file_number": 22}
+2022/03/17-15:58:26.872654 788 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000019.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:26.872678 788 EVENT_LOG_v1 {"time_micros": 1647550706872671, "job": 19, "event": "table_file_deletion", "file_number": 19}
+2022/03/17-15:58:28.166755 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #33. Immutable memtables: 0.
+2022/03/17-15:58:29.360063 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #34. Immutable memtables: 1.
+2022/03/17-15:58:29.360171 3084 (Original Log Time 2022/03/17-15:58:29.360159) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:29.360186 3084 [db\flush_job.cc:338] [default] [JOB 21] Flushing memtable with next log file: 33
+2022/03/17-15:58:29.360195 3084 [db\flush_job.cc:338] [default] [JOB 21] Flushing memtable with next log file: 34
+2022/03/17-15:58:29.360229 3084 EVENT_LOG_v1 {"time_micros": 1647550709360216, "job": 21, "event": "flush_started", "num_memtables": 2, "num_entries": 2165, "num_deletes": 0, "total_data_size": 95260, "memory_usage": 131568, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:29.360239 3084 [db\flush_job.cc:367] [default] [JOB 21] Level-0 flush table #35: started
+2022/03/17-15:58:29.368605 3084 EVENT_LOG_v1 {"time_micros": 1647550709368557, "cf_name": "default", "job": 21, "event": "table_file_creation", "file_number": 35, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550706, "oldest_key_time": 1647550706, "file_creation_time": 1647550709, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:29.368623 3084 [db\flush_job.cc:431] [default] [JOB 21] Level-0 flush table #35: 1079 bytes OK
+2022/03/17-15:58:29.370442 3084 (Original Log Time 2022/03/17-15:58:29.368640) [db\memtable_list.cc:451] [default] Level-0 commit table #35 started
+2022/03/17-15:58:29.370453 3084 (Original Log Time 2022/03/17-15:58:29.370301) [db\memtable_list.cc:631] [default] Level-0 commit table #35: memtable #1 done
+2022/03/17-15:58:29.370458 3084 (Original Log Time 2022/03/17-15:58:29.370306) [db\memtable_list.cc:631] [default] Level-0 commit table #35: memtable #2 done
+2022/03/17-15:58:29.370463 3084 (Original Log Time 2022/03/17-15:58:29.370340) EVENT_LOG_v1 {"time_micros": 1647550709370322, "job": 21, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:29.370467 3084 (Original Log Time 2022/03/17-15:58:29.370359) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[1 1 0 0 0 0 0] max score 0.25
+2022/03/17-15:58:29.370475 3084 [db\db_impl\db_impl_files.cc:420] [JOB 21] Try to delete WAL files size 106085, prev total WAL file size 106330, number of live WAL files 3.
+2022/03/17-15:58:29.373840 3084 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000033.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:29.381804 3084 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000030.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:35.497332 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #36. Immutable memtables: 0.
+2022/03/17-15:58:46.303967 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #37. Immutable memtables: 1.
+2022/03/17-15:58:46.304038 1040 (Original Log Time 2022/03/17-15:58:46.304026) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:58:46.304054 1040 [db\flush_job.cc:338] [default] [JOB 23] Flushing memtable with next log file: 36
+2022/03/17-15:58:46.304063 1040 [db\flush_job.cc:338] [default] [JOB 23] Flushing memtable with next log file: 37
+2022/03/17-15:58:46.304088 1040 EVENT_LOG_v1 {"time_micros": 1647550726304075, "job": 23, "event": "flush_started", "num_memtables": 2, "num_entries": 2162, "num_deletes": 0, "total_data_size": 95128, "memory_usage": 131552, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:58:46.304097 1040 [db\flush_job.cc:367] [default] [JOB 23] Level-0 flush table #38: started
+2022/03/17-15:58:46.316434 1040 EVENT_LOG_v1 {"time_micros": 1647550726316382, "cf_name": "default", "job": 23, "event": "table_file_creation", "file_number": 38, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550709, "oldest_key_time": 1647550709, "file_creation_time": 1647550726, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:58:46.316460 1040 [db\flush_job.cc:431] [default] [JOB 23] Level-0 flush table #38: 1079 bytes OK
+2022/03/17-15:58:46.318284 1040 (Original Log Time 2022/03/17-15:58:46.316483) [db\memtable_list.cc:451] [default] Level-0 commit table #38 started
+2022/03/17-15:58:46.318305 1040 (Original Log Time 2022/03/17-15:58:46.318033) [db\memtable_list.cc:631] [default] Level-0 commit table #38: memtable #1 done
+2022/03/17-15:58:46.318315 1040 (Original Log Time 2022/03/17-15:58:46.318040) [db\memtable_list.cc:631] [default] Level-0 commit table #38: memtable #2 done
+2022/03/17-15:58:46.318323 1040 (Original Log Time 2022/03/17-15:58:46.318078) EVENT_LOG_v1 {"time_micros": 1647550726318062, "job": 23, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [2, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:58:46.318330 1040 (Original Log Time 2022/03/17-15:58:46.318114) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[2 1 0 0 0 0 0] max score 0.50
+2022/03/17-15:58:46.318341 1040 [db\db_impl\db_impl_files.cc:420] [JOB 23] Try to delete WAL files size 105938, prev total WAL file size 105987, number of live WAL files 3.
+2022/03/17-15:58:46.328137 1040 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000036.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:46.328319 1040 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000034.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:58:56.739975 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #39. Immutable memtables: 0.
+2022/03/17-15:59:00.874685 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #40. Immutable memtables: 1.
+2022/03/17-15:59:00.874747 c6c (Original Log Time 2022/03/17-15:59:00.874737) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:00.874758 c6c [db\flush_job.cc:338] [default] [JOB 25] Flushing memtable with next log file: 39
+2022/03/17-15:59:00.874766 c6c [db\flush_job.cc:338] [default] [JOB 25] Flushing memtable with next log file: 40
+2022/03/17-15:59:00.874797 c6c EVENT_LOG_v1 {"time_micros": 1647550740874778, "job": 25, "event": "flush_started", "num_memtables": 2, "num_entries": 2161, "num_deletes": 0, "total_data_size": 95084, "memory_usage": 131560, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:00.874806 c6c [db\flush_job.cc:367] [default] [JOB 25] Level-0 flush table #41: started
+2022/03/17-15:59:00.883403 c6c EVENT_LOG_v1 {"time_micros": 1647550740883272, "cf_name": "default", "job": 25, "event": "table_file_creation", "file_number": 41, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550726, "oldest_key_time": 1647550726, "file_creation_time": 1647550740, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:00.883421 c6c [db\flush_job.cc:431] [default] [JOB 25] Level-0 flush table #41: 1079 bytes OK
+2022/03/17-15:59:00.885329 c6c (Original Log Time 2022/03/17-15:59:00.883442) [db\memtable_list.cc:451] [default] Level-0 commit table #41 started
+2022/03/17-15:59:00.885359 c6c (Original Log Time 2022/03/17-15:59:00.885068) [db\memtable_list.cc:631] [default] Level-0 commit table #41: memtable #1 done
+2022/03/17-15:59:00.885376 c6c (Original Log Time 2022/03/17-15:59:00.885073) [db\memtable_list.cc:631] [default] Level-0 commit table #41: memtable #2 done
+2022/03/17-15:59:00.885392 c6c (Original Log Time 2022/03/17-15:59:00.885095) EVENT_LOG_v1 {"time_micros": 1647550740885085, "job": 25, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [3, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:00.885406 c6c (Original Log Time 2022/03/17-15:59:00.885203) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[3 1 0 0 0 0 0] max score 0.75
+2022/03/17-15:59:00.885429 c6c [db\db_impl\db_impl_files.cc:420] [JOB 25] Try to delete WAL files size 105889, prev total WAL file size 106281, number of live WAL files 3.
+2022/03/17-15:59:00.889862 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000039.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:00.897716 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000037.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:03.536236 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #42. Immutable memtables: 0.
+2022/03/17-15:59:05.131930 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #43. Immutable memtables: 1.
+2022/03/17-15:59:05.131988 292c (Original Log Time 2022/03/17-15:59:05.131978) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:05.132001 292c [db\flush_job.cc:338] [default] [JOB 27] Flushing memtable with next log file: 42
+2022/03/17-15:59:05.132011 292c [db\flush_job.cc:338] [default] [JOB 27] Flushing memtable with next log file: 43
+2022/03/17-15:59:05.132043 292c EVENT_LOG_v1 {"time_micros": 1647550745132024, "job": 27, "event": "flush_started", "num_memtables": 2, "num_entries": 2156, "num_deletes": 0, "total_data_size": 94864, "memory_usage": 131512, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:05.132052 292c [db\flush_job.cc:367] [default] [JOB 27] Level-0 flush table #44: started
+2022/03/17-15:59:05.140545 292c EVENT_LOG_v1 {"time_micros": 1647550745140493, "cf_name": "default", "job": 27, "event": "table_file_creation", "file_number": 44, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550740, "oldest_key_time": 1647550740, "file_creation_time": 1647550745, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:05.140561 292c [db\flush_job.cc:431] [default] [JOB 27] Level-0 flush table #44: 1079 bytes OK
+2022/03/17-15:59:05.142278 292c (Original Log Time 2022/03/17-15:59:05.140575) [db\memtable_list.cc:451] [default] Level-0 commit table #44 started
+2022/03/17-15:59:05.142292 292c (Original Log Time 2022/03/17-15:59:05.142123) [db\memtable_list.cc:631] [default] Level-0 commit table #44: memtable #1 done
+2022/03/17-15:59:05.142300 292c (Original Log Time 2022/03/17-15:59:05.142128) [db\memtable_list.cc:631] [default] Level-0 commit table #44: memtable #2 done
+2022/03/17-15:59:05.142307 292c (Original Log Time 2022/03/17-15:59:05.142157) EVENT_LOG_v1 {"time_micros": 1647550745142144, "job": 27, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [4, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:05.142314 292c (Original Log Time 2022/03/17-15:59:05.142181) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[4 1 0 0 0 0 0] max score 1.00
+2022/03/17-15:59:05.142315 3540 [db\compaction\compaction_job.cc:1884] [default] [JOB 28] Compacting 4@0 + 1@1 files to L1, score 1.00
+2022/03/17-15:59:05.142326 292c [db\db_impl\db_impl_files.cc:420] [JOB 27] Try to delete WAL files size 105644, prev total WAL file size 106575, number of live WAL files 3.
+2022/03/17-15:59:05.142335 3540 [db\compaction\compaction_job.cc:1888] [default] Compaction start summary: Base version 16 Base level 0, inputs: [44(1079B) 41(1079B) 38(1079B) 35(1079B)], [32(1170B)]
+2022/03/17-15:59:05.142371 3540 EVENT_LOG_v1 {"time_micros": 1647550745142348, "job": 28, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [44, 41, 38, 35], "files_L1": [32], "score": 1, "input_data_size": 5486}
+2022/03/17-15:59:05.145961 292c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000042.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:05.146287 3540 [db\compaction\compaction_job.cc:1521] [default] [JOB 28] Generated table #45: 3 keys, 1170 bytes
+2022/03/17-15:59:05.146348 3540 EVENT_LOG_v1 {"time_micros": 1647550745146308, "cf_name": "default", "job": 28, "event": "table_file_creation", "file_number": 45, "file_size": 1170, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 150, "index_size": 50, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 120, "raw_average_key_size": 40, "raw_value_size": 8, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 3, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550677, "oldest_key_time": 0, "file_creation_time": 1647550745, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:05.150256 3540 [db\compaction\compaction_job.cc:1598] [default] [JOB 28] Compacted 4@0 + 1@1 files to L1 => 1170 bytes
+2022/03/17-15:59:05.150304 292c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000040.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:05.152110 3540 (Original Log Time 2022/03/17-15:59:05.152053) [db\compaction\compaction_job.cc:830] [default] compacted to: files[0 1 0 0 0 0 0] max score 0.00, MB/sec: 1.4 rd, 0.3 wr, level 1, files in(4, 1) out(1) MB in(0.0, 0.0) out(0.0), read-write-amplify(1.5) write-amplify(0.3) OK, records in: 7, records dropped: 4 output_compression: Snappy
+2022/03/17-15:59:05.152126 3540 (Original Log Time 2022/03/17-15:59:05.152081) EVENT_LOG_v1 {"time_micros": 1647550745152064, "job": 28, "event": "compaction_finished", "compaction_time_micros": 4047, "compaction_time_cpu_micros": 0, "output_level": 1, "num_output_files": 1, "total_output_size": 1170, "num_input_records": 7, "num_output_records": 3, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 1, 0, 0, 0, 0, 0]}
+2022/03/17-15:59:05.152368 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000044.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:05.152391 3540 EVENT_LOG_v1 {"time_micros": 1647550745152384, "job": 28, "event": "table_file_deletion", "file_number": 44}
+2022/03/17-15:59:05.152547 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000041.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:05.152569 3540 EVENT_LOG_v1 {"time_micros": 1647550745152563, "job": 28, "event": "table_file_deletion", "file_number": 41}
+2022/03/17-15:59:05.152759 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000038.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:05.152783 3540 EVENT_LOG_v1 {"time_micros": 1647550745152779, "job": 28, "event": "table_file_deletion", "file_number": 38}
+2022/03/17-15:59:05.152924 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000035.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:05.152994 3540 EVENT_LOG_v1 {"time_micros": 1647550745152988, "job": 28, "event": "table_file_deletion", "file_number": 35}
+2022/03/17-15:59:05.153140 3540 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000032.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:05.153162 3540 EVENT_LOG_v1 {"time_micros": 1647550745153158, "job": 28, "event": "table_file_deletion", "file_number": 32}
+2022/03/17-15:59:06.029531 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #46. Immutable memtables: 0.
+2022/03/17-15:59:06.915910 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #47. Immutable memtables: 1.
+2022/03/17-15:59:06.915966 c6c (Original Log Time 2022/03/17-15:59:06.915955) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:06.915977 c6c [db\flush_job.cc:338] [default] [JOB 30] Flushing memtable with next log file: 46
+2022/03/17-15:59:06.915983 c6c [db\flush_job.cc:338] [default] [JOB 30] Flushing memtable with next log file: 47
+2022/03/17-15:59:06.916002 c6c EVENT_LOG_v1 {"time_micros": 1647550746915992, "job": 30, "event": "flush_started", "num_memtables": 2, "num_entries": 2155, "num_deletes": 0, "total_data_size": 94820, "memory_usage": 131560, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:06.916008 c6c [db\flush_job.cc:367] [default] [JOB 30] Level-0 flush table #48: started
+2022/03/17-15:59:06.923977 c6c EVENT_LOG_v1 {"time_micros": 1647550746923921, "cf_name": "default", "job": 30, "event": "table_file_creation", "file_number": 48, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550745, "oldest_key_time": 1647550745, "file_creation_time": 1647550746, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:06.923998 c6c [db\flush_job.cc:431] [default] [JOB 30] Level-0 flush table #48: 1079 bytes OK
+2022/03/17-15:59:06.925776 c6c (Original Log Time 2022/03/17-15:59:06.924019) [db\memtable_list.cc:451] [default] Level-0 commit table #48 started
+2022/03/17-15:59:06.925793 c6c (Original Log Time 2022/03/17-15:59:06.925599) [db\memtable_list.cc:631] [default] Level-0 commit table #48: memtable #1 done
+2022/03/17-15:59:06.925801 c6c (Original Log Time 2022/03/17-15:59:06.925605) [db\memtable_list.cc:631] [default] Level-0 commit table #48: memtable #2 done
+2022/03/17-15:59:06.925809 c6c (Original Log Time 2022/03/17-15:59:06.925642) EVENT_LOG_v1 {"time_micros": 1647550746925624, "job": 30, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:06.925820 c6c (Original Log Time 2022/03/17-15:59:06.925663) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[1 1 0 0 0 0 0] max score 0.25
+2022/03/17-15:59:06.925838 c6c [db\db_impl\db_impl_files.cc:420] [JOB 30] Try to delete WAL files size 105595, prev total WAL file size 105840, number of live WAL files 3.
+2022/03/17-15:59:06.929433 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000046.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:06.929629 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000043.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:10.063020 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #49. Immutable memtables: 0.
+2022/03/17-15:59:14.374026 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #50. Immutable memtables: 1.
+2022/03/17-15:59:14.374105 c6c (Original Log Time 2022/03/17-15:59:14.374085) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:14.374120 c6c [db\flush_job.cc:338] [default] [JOB 32] Flushing memtable with next log file: 49
+2022/03/17-15:59:14.374132 c6c [db\flush_job.cc:338] [default] [JOB 32] Flushing memtable with next log file: 50
+2022/03/17-15:59:14.374164 c6c EVENT_LOG_v1 {"time_micros": 1647550754374149, "job": 32, "event": "flush_started", "num_memtables": 2, "num_entries": 2159, "num_deletes": 0, "total_data_size": 94996, "memory_usage": 131544, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:14.374172 c6c [db\flush_job.cc:367] [default] [JOB 32] Level-0 flush table #51: started
+2022/03/17-15:59:14.386819 c6c EVENT_LOG_v1 {"time_micros": 1647550754386786, "cf_name": "default", "job": 32, "event": "table_file_creation", "file_number": 51, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550746, "oldest_key_time": 1647550746, "file_creation_time": 1647550754, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:14.386838 c6c [db\flush_job.cc:431] [default] [JOB 32] Level-0 flush table #51: 1079 bytes OK
+2022/03/17-15:59:14.389010 c6c (Original Log Time 2022/03/17-15:59:14.386854) [db\memtable_list.cc:451] [default] Level-0 commit table #51 started
+2022/03/17-15:59:14.389031 c6c (Original Log Time 2022/03/17-15:59:14.388753) [db\memtable_list.cc:631] [default] Level-0 commit table #51: memtable #1 done
+2022/03/17-15:59:14.389039 c6c (Original Log Time 2022/03/17-15:59:14.388760) [db\memtable_list.cc:631] [default] Level-0 commit table #51: memtable #2 done
+2022/03/17-15:59:14.389052 c6c (Original Log Time 2022/03/17-15:59:14.388801) EVENT_LOG_v1 {"time_micros": 1647550754388784, "job": 32, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [2, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:14.389065 c6c (Original Log Time 2022/03/17-15:59:14.388875) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[2 1 0 0 0 0 0] max score 0.50
+2022/03/17-15:59:14.389079 c6c [db\db_impl\db_impl_files.cc:420] [JOB 32] Try to delete WAL files size 105791, prev total WAL file size 105938, number of live WAL files 3.
+2022/03/17-15:59:14.396000 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000049.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:14.403311 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000047.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:18.296681 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #52. Immutable memtables: 0.
+2022/03/17-15:59:20.985943 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #53. Immutable memtables: 1.
+2022/03/17-15:59:20.986010 1b14 (Original Log Time 2022/03/17-15:59:20.986000) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:20.986022 1b14 [db\flush_job.cc:338] [default] [JOB 34] Flushing memtable with next log file: 52
+2022/03/17-15:59:20.986029 1b14 [db\flush_job.cc:338] [default] [JOB 34] Flushing memtable with next log file: 53
+2022/03/17-15:59:20.986055 1b14 EVENT_LOG_v1 {"time_micros": 1647550760986038, "job": 34, "event": "flush_started", "num_memtables": 2, "num_entries": 2159, "num_deletes": 0, "total_data_size": 94996, "memory_usage": 131536, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:20.986067 1b14 [db\flush_job.cc:367] [default] [JOB 34] Level-0 flush table #54: started
+2022/03/17-15:59:20.994601 1b14 EVENT_LOG_v1 {"time_micros": 1647550760994558, "cf_name": "default", "job": 34, "event": "table_file_creation", "file_number": 54, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550754, "oldest_key_time": 1647550754, "file_creation_time": 1647550760, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:20.994620 1b14 [db\flush_job.cc:431] [default] [JOB 34] Level-0 flush table #54: 1079 bytes OK
+2022/03/17-15:59:20.996383 1b14 (Original Log Time 2022/03/17-15:59:20.994641) [db\memtable_list.cc:451] [default] Level-0 commit table #54 started
+2022/03/17-15:59:20.996397 1b14 (Original Log Time 2022/03/17-15:59:20.996209) [db\memtable_list.cc:631] [default] Level-0 commit table #54: memtable #1 done
+2022/03/17-15:59:20.996405 1b14 (Original Log Time 2022/03/17-15:59:20.996215) [db\memtable_list.cc:631] [default] Level-0 commit table #54: memtable #2 done
+2022/03/17-15:59:20.996416 1b14 (Original Log Time 2022/03/17-15:59:20.996248) EVENT_LOG_v1 {"time_micros": 1647550760996233, "job": 34, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [3, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:20.996425 1b14 (Original Log Time 2022/03/17-15:59:20.996270) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[3 1 0 0 0 0 0] max score 0.75
+2022/03/17-15:59:20.996437 1b14 [db\db_impl\db_impl_files.cc:420] [JOB 34] Try to delete WAL files size 105791, prev total WAL file size 106281, number of live WAL files 3.
+2022/03/17-15:59:20.999898 1b14 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000052.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:21.006847 1b14 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000050.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:22.195754 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #55. Immutable memtables: 0.
+2022/03/17-15:59:23.612329 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #56. Immutable memtables: 1.
+2022/03/17-15:59:23.612401 3084 (Original Log Time 2022/03/17-15:59:23.612387) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:23.612415 3084 [db\flush_job.cc:338] [default] [JOB 36] Flushing memtable with next log file: 55
+2022/03/17-15:59:23.612424 3084 [db\flush_job.cc:338] [default] [JOB 36] Flushing memtable with next log file: 56
+2022/03/17-15:59:23.612448 3084 EVENT_LOG_v1 {"time_micros": 1647550763612436, "job": 36, "event": "flush_started", "num_memtables": 2, "num_entries": 2150, "num_deletes": 0, "total_data_size": 94600, "memory_usage": 131512, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:23.612458 3084 [db\flush_job.cc:367] [default] [JOB 36] Level-0 flush table #57: started
+2022/03/17-15:59:23.624216 3084 EVENT_LOG_v1 {"time_micros": 1647550763624159, "cf_name": "default", "job": 36, "event": "table_file_creation", "file_number": 57, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550760, "oldest_key_time": 1647550760, "file_creation_time": 1647550763, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:23.624240 3084 [db\flush_job.cc:431] [default] [JOB 36] Level-0 flush table #57: 1079 bytes OK
+2022/03/17-15:59:23.626116 3084 (Original Log Time 2022/03/17-15:59:23.624262) [db\memtable_list.cc:451] [default] Level-0 commit table #57 started
+2022/03/17-15:59:23.626133 3084 (Original Log Time 2022/03/17-15:59:23.625963) [db\memtable_list.cc:631] [default] Level-0 commit table #57: memtable #1 done
+2022/03/17-15:59:23.626145 3084 (Original Log Time 2022/03/17-15:59:23.625969) [db\memtable_list.cc:631] [default] Level-0 commit table #57: memtable #2 done
+2022/03/17-15:59:23.626154 3084 (Original Log Time 2022/03/17-15:59:23.626002) EVENT_LOG_v1 {"time_micros": 1647550763625988, "job": 36, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [4, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:23.626161 3084 (Original Log Time 2022/03/17-15:59:23.626028) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[4 1 0 0 0 0 0] max score 1.00
+2022/03/17-15:59:23.626159 1ba8 [db\compaction\compaction_job.cc:1884] [default] [JOB 37] Compacting 4@0 + 1@1 files to L1, score 1.00
+2022/03/17-15:59:23.626173 3084 [db\db_impl\db_impl_files.cc:420] [JOB 36] Try to delete WAL files size 105350, prev total WAL file size 105546, number of live WAL files 3.
+2022/03/17-15:59:23.626331 1ba8 [db\compaction\compaction_job.cc:1888] [default] Compaction start summary: Base version 21 Base level 0, inputs: [57(1079B) 54(1079B) 51(1079B) 48(1079B)], [45(1170B)]
+2022/03/17-15:59:23.626370 1ba8 EVENT_LOG_v1 {"time_micros": 1647550763626346, "job": 37, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [57, 54, 51, 48], "files_L1": [45], "score": 1, "input_data_size": 5486}
+2022/03/17-15:59:23.631160 3084 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000055.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:23.631449 1ba8 [db\compaction\compaction_job.cc:1521] [default] [JOB 37] Generated table #58: 3 keys, 1170 bytes
+2022/03/17-15:59:23.631518 1ba8 EVENT_LOG_v1 {"time_micros": 1647550763631472, "cf_name": "default", "job": 37, "event": "table_file_creation", "file_number": 58, "file_size": 1170, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 150, "index_size": 50, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 120, "raw_average_key_size": 40, "raw_value_size": 8, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 3, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550677, "oldest_key_time": 0, "file_creation_time": 1647550763, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:23.638748 1ba8 [db\compaction\compaction_job.cc:1598] [default] [JOB 37] Compacted 4@0 + 1@1 files to L1 => 1170 bytes
+2022/03/17-15:59:23.640494 3084 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000053.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:23.640585 1ba8 (Original Log Time 2022/03/17-15:59:23.640476) [db\compaction\compaction_job.cc:830] [default] compacted to: files[0 1 0 0 0 0 0] max score 0.00, MB/sec: 1.0 rd, 0.2 wr, level 1, files in(4, 1) out(1) MB in(0.0, 0.0) out(0.0), read-write-amplify(1.5) write-amplify(0.3) OK, records in: 7, records dropped: 4 output_compression: Snappy
+2022/03/17-15:59:23.640606 1ba8 (Original Log Time 2022/03/17-15:59:23.640537) EVENT_LOG_v1 {"time_micros": 1647550763640510, "job": 37, "event": "compaction_finished", "compaction_time_micros": 5238, "compaction_time_cpu_micros": 0, "output_level": 1, "num_output_files": 1, "total_output_size": 1170, "num_input_records": 7, "num_output_records": 3, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 1, 0, 0, 0, 0, 0]}
+2022/03/17-15:59:23.640897 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000057.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:23.640944 1ba8 EVENT_LOG_v1 {"time_micros": 1647550763640921, "job": 37, "event": "table_file_deletion", "file_number": 57}
+2022/03/17-15:59:23.641267 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000054.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:23.641297 1ba8 EVENT_LOG_v1 {"time_micros": 1647550763641289, "job": 37, "event": "table_file_deletion", "file_number": 54}
+2022/03/17-15:59:23.641514 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000051.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:23.641538 1ba8 EVENT_LOG_v1 {"time_micros": 1647550763641531, "job": 37, "event": "table_file_deletion", "file_number": 51}
+2022/03/17-15:59:23.641789 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000048.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:23.641815 1ba8 EVENT_LOG_v1 {"time_micros": 1647550763641809, "job": 37, "event": "table_file_deletion", "file_number": 48}
+2022/03/17-15:59:23.642096 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000045.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:23.642126 1ba8 EVENT_LOG_v1 {"time_micros": 1647550763642117, "job": 37, "event": "table_file_deletion", "file_number": 45}
+2022/03/17-15:59:25.279929 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #59. Immutable memtables: 0.
+2022/03/17-15:59:27.396581 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #60. Immutable memtables: 1.
+2022/03/17-15:59:27.396659 292c (Original Log Time 2022/03/17-15:59:27.396648) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:27.396674 292c [db\flush_job.cc:338] [default] [JOB 39] Flushing memtable with next log file: 59
+2022/03/17-15:59:27.396683 292c [db\flush_job.cc:338] [default] [JOB 39] Flushing memtable with next log file: 60
+2022/03/17-15:59:27.396709 292c EVENT_LOG_v1 {"time_micros": 1647550767396695, "job": 39, "event": "flush_started", "num_memtables": 2, "num_entries": 2161, "num_deletes": 0, "total_data_size": 95084, "memory_usage": 131512, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:27.396718 292c [db\flush_job.cc:367] [default] [JOB 39] Level-0 flush table #61: started
+2022/03/17-15:59:27.405809 292c EVENT_LOG_v1 {"time_micros": 1647550767405758, "cf_name": "default", "job": 39, "event": "table_file_creation", "file_number": 61, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550763, "oldest_key_time": 1647550763, "file_creation_time": 1647550767, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:27.405826 292c [db\flush_job.cc:431] [default] [JOB 39] Level-0 flush table #61: 1079 bytes OK
+2022/03/17-15:59:27.407628 292c (Original Log Time 2022/03/17-15:59:27.405843) [db\memtable_list.cc:451] [default] Level-0 commit table #61 started
+2022/03/17-15:59:27.407652 292c (Original Log Time 2022/03/17-15:59:27.407464) [db\memtable_list.cc:631] [default] Level-0 commit table #61: memtable #1 done
+2022/03/17-15:59:27.407668 292c (Original Log Time 2022/03/17-15:59:27.407470) [db\memtable_list.cc:631] [default] Level-0 commit table #61: memtable #2 done
+2022/03/17-15:59:27.407679 292c (Original Log Time 2022/03/17-15:59:27.407508) EVENT_LOG_v1 {"time_micros": 1647550767407489, "job": 39, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:27.407685 292c (Original Log Time 2022/03/17-15:59:27.407531) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[1 1 0 0 0 0 0] max score 0.25
+2022/03/17-15:59:27.407698 292c [db\db_impl\db_impl_files.cc:420] [JOB 39] Try to delete WAL files size 105889, prev total WAL file size 106281, number of live WAL files 3.
+2022/03/17-15:59:27.411221 292c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000059.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:27.414945 292c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000056.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:29.913821 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #62. Immutable memtables: 0.
+2022/03/17-15:59:33.966728 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #63. Immutable memtables: 1.
+2022/03/17-15:59:33.966795 c6c (Original Log Time 2022/03/17-15:59:33.966782) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:33.966806 c6c [db\flush_job.cc:338] [default] [JOB 41] Flushing memtable with next log file: 62
+2022/03/17-15:59:33.966813 c6c [db\flush_job.cc:338] [default] [JOB 41] Flushing memtable with next log file: 63
+2022/03/17-15:59:33.966832 c6c EVENT_LOG_v1 {"time_micros": 1647550773966822, "job": 41, "event": "flush_started", "num_memtables": 2, "num_entries": 2157, "num_deletes": 0, "total_data_size": 94908, "memory_usage": 131504, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:33.966837 c6c [db\flush_job.cc:367] [default] [JOB 41] Level-0 flush table #64: started
+2022/03/17-15:59:33.975234 c6c EVENT_LOG_v1 {"time_micros": 1647550773975203, "cf_name": "default", "job": 41, "event": "table_file_creation", "file_number": 64, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550767, "oldest_key_time": 1647550767, "file_creation_time": 1647550773, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:33.975251 c6c [db\flush_job.cc:431] [default] [JOB 41] Level-0 flush table #64: 1079 bytes OK
+2022/03/17-15:59:33.976950 c6c (Original Log Time 2022/03/17-15:59:33.975266) [db\memtable_list.cc:451] [default] Level-0 commit table #64 started
+2022/03/17-15:59:33.976967 c6c (Original Log Time 2022/03/17-15:59:33.976788) [db\memtable_list.cc:631] [default] Level-0 commit table #64: memtable #1 done
+2022/03/17-15:59:33.976974 c6c (Original Log Time 2022/03/17-15:59:33.976794) [db\memtable_list.cc:631] [default] Level-0 commit table #64: memtable #2 done
+2022/03/17-15:59:33.976982 c6c (Original Log Time 2022/03/17-15:59:33.976826) EVENT_LOG_v1 {"time_micros": 1647550773976810, "job": 41, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [2, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:33.976989 c6c (Original Log Time 2022/03/17-15:59:33.976847) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[2 1 0 0 0 0 0] max score 0.50
+2022/03/17-15:59:33.977002 c6c [db\db_impl\db_impl_files.cc:420] [JOB 41] Try to delete WAL files size 105693, prev total WAL file size 105987, number of live WAL files 3.
+2022/03/17-15:59:33.980591 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000062.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:33.988679 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000060.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:36.238768 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #65. Immutable memtables: 0.
+2022/03/17-15:59:40.325118 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #66. Immutable memtables: 1.
+2022/03/17-15:59:40.325183 19ec (Original Log Time 2022/03/17-15:59:40.325167) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:40.325199 19ec [db\flush_job.cc:338] [default] [JOB 43] Flushing memtable with next log file: 65
+2022/03/17-15:59:40.325209 19ec [db\flush_job.cc:338] [default] [JOB 43] Flushing memtable with next log file: 66
+2022/03/17-15:59:40.325236 19ec EVENT_LOG_v1 {"time_micros": 1647550780325222, "job": 43, "event": "flush_started", "num_memtables": 2, "num_entries": 2157, "num_deletes": 0, "total_data_size": 94908, "memory_usage": 131520, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:40.325245 19ec [db\flush_job.cc:367] [default] [JOB 43] Level-0 flush table #67: started
+2022/03/17-15:59:40.335281 19ec EVENT_LOG_v1 {"time_micros": 1647550780335236, "cf_name": "default", "job": 43, "event": "table_file_creation", "file_number": 67, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550773, "oldest_key_time": 1647550773, "file_creation_time": 1647550780, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:40.335304 19ec [db\flush_job.cc:431] [default] [JOB 43] Level-0 flush table #67: 1079 bytes OK
+2022/03/17-15:59:40.337017 19ec (Original Log Time 2022/03/17-15:59:40.335323) [db\memtable_list.cc:451] [default] Level-0 commit table #67 started
+2022/03/17-15:59:40.337029 19ec (Original Log Time 2022/03/17-15:59:40.336849) [db\memtable_list.cc:631] [default] Level-0 commit table #67: memtable #1 done
+2022/03/17-15:59:40.337035 19ec (Original Log Time 2022/03/17-15:59:40.336854) [db\memtable_list.cc:631] [default] Level-0 commit table #67: memtable #2 done
+2022/03/17-15:59:40.337039 19ec (Original Log Time 2022/03/17-15:59:40.336895) EVENT_LOG_v1 {"time_micros": 1647550780336876, "job": 43, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [3, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:40.337044 19ec (Original Log Time 2022/03/17-15:59:40.336918) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[3 1 0 0 0 0 0] max score 0.75
+2022/03/17-15:59:40.337052 19ec [db\db_impl\db_impl_files.cc:420] [JOB 43] Try to delete WAL files size 105693, prev total WAL file size 105938, number of live WAL files 3.
+2022/03/17-15:59:40.340569 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000065.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:40.348716 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000063.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:44.359407 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #68. Immutable memtables: 0.
+2022/03/17-15:59:47.937091 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #69. Immutable memtables: 1.
+2022/03/17-15:59:47.937162 c6c (Original Log Time 2022/03/17-15:59:47.937150) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:47.937181 c6c [db\flush_job.cc:338] [default] [JOB 45] Flushing memtable with next log file: 68
+2022/03/17-15:59:47.937194 c6c [db\flush_job.cc:338] [default] [JOB 45] Flushing memtable with next log file: 69
+2022/03/17-15:59:47.937220 c6c EVENT_LOG_v1 {"time_micros": 1647550787937210, "job": 45, "event": "flush_started", "num_memtables": 2, "num_entries": 2159, "num_deletes": 0, "total_data_size": 94996, "memory_usage": 131520, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:47.937227 c6c [db\flush_job.cc:367] [default] [JOB 45] Level-0 flush table #70: started
+2022/03/17-15:59:47.946538 c6c EVENT_LOG_v1 {"time_micros": 1647550787946493, "cf_name": "default", "job": 45, "event": "table_file_creation", "file_number": 70, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550780, "oldest_key_time": 1647550780, "file_creation_time": 1647550787, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:47.946562 c6c [db\flush_job.cc:431] [default] [JOB 45] Level-0 flush table #70: 1079 bytes OK
+2022/03/17-15:59:47.948348 c6c (Original Log Time 2022/03/17-15:59:47.946587) [db\memtable_list.cc:451] [default] Level-0 commit table #70 started
+2022/03/17-15:59:47.948365 c6c (Original Log Time 2022/03/17-15:59:47.948172) [db\memtable_list.cc:631] [default] Level-0 commit table #70: memtable #1 done
+2022/03/17-15:59:47.948373 c6c (Original Log Time 2022/03/17-15:59:47.948178) [db\memtable_list.cc:631] [default] Level-0 commit table #70: memtable #2 done
+2022/03/17-15:59:47.948380 c6c (Original Log Time 2022/03/17-15:59:47.948212) EVENT_LOG_v1 {"time_micros": 1647550787948196, "job": 45, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [4, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:47.948387 c6c (Original Log Time 2022/03/17-15:59:47.948241) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[4 1 0 0 0 0 0] max score 1.00
+2022/03/17-15:59:47.948387 2088 [db\compaction\compaction_job.cc:1884] [default] [JOB 46] Compacting 4@0 + 1@1 files to L1, score 1.00
+2022/03/17-15:59:47.948401 c6c [db\db_impl\db_impl_files.cc:420] [JOB 45] Try to delete WAL files size 105791, prev total WAL file size 106036, number of live WAL files 3.
+2022/03/17-15:59:47.948409 2088 [db\compaction\compaction_job.cc:1888] [default] Compaction start summary: Base version 26 Base level 0, inputs: [70(1079B) 67(1079B) 64(1079B) 61(1079B)], [58(1170B)]
+2022/03/17-15:59:47.948442 2088 EVENT_LOG_v1 {"time_micros": 1647550787948421, "job": 46, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [70, 67, 64, 61], "files_L1": [58], "score": 1, "input_data_size": 5486}
+2022/03/17-15:59:47.952281 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000068.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:47.952462 2088 [db\compaction\compaction_job.cc:1521] [default] [JOB 46] Generated table #71: 3 keys, 1170 bytes
+2022/03/17-15:59:47.952531 2088 EVENT_LOG_v1 {"time_micros": 1647550787952486, "cf_name": "default", "job": 46, "event": "table_file_creation", "file_number": 71, "file_size": 1170, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 150, "index_size": 50, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 120, "raw_average_key_size": 40, "raw_value_size": 8, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 3, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550677, "oldest_key_time": 0, "file_creation_time": 1647550787, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:47.958182 2088 [db\compaction\compaction_job.cc:1598] [default] [JOB 46] Compacted 4@0 + 1@1 files to L1 => 1170 bytes
+2022/03/17-15:59:47.959803 c6c [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000066.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:47.959932 2088 (Original Log Time 2022/03/17-15:59:47.959854) [db\compaction\compaction_job.cc:830] [default] compacted to: files[0 1 0 0 0 0 0] max score 0.00, MB/sec: 1.3 rd, 0.3 wr, level 1, files in(4, 1) out(1) MB in(0.0, 0.0) out(0.0), read-write-amplify(1.5) write-amplify(0.3) OK, records in: 7, records dropped: 4 output_compression: Snappy
+2022/03/17-15:59:47.959952 2088 (Original Log Time 2022/03/17-15:59:47.959891) EVENT_LOG_v1 {"time_micros": 1647550787959867, "job": 46, "event": "compaction_finished", "compaction_time_micros": 4180, "compaction_time_cpu_micros": 0, "output_level": 1, "num_output_files": 1, "total_output_size": 1170, "num_input_records": 7, "num_output_records": 3, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 1, 0, 0, 0, 0, 0]}
+2022/03/17-15:59:47.960230 2088 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000070.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:47.960367 2088 EVENT_LOG_v1 {"time_micros": 1647550787960359, "job": 46, "event": "table_file_deletion", "file_number": 70}
+2022/03/17-15:59:47.960713 2088 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000067.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:47.960751 2088 EVENT_LOG_v1 {"time_micros": 1647550787960743, "job": 46, "event": "table_file_deletion", "file_number": 67}
+2022/03/17-15:59:47.961104 2088 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000064.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:47.961135 2088 EVENT_LOG_v1 {"time_micros": 1647550787961128, "job": 46, "event": "table_file_deletion", "file_number": 64}
+2022/03/17-15:59:47.961412 2088 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000061.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:47.961445 2088 EVENT_LOG_v1 {"time_micros": 1647550787961434, "job": 46, "event": "table_file_deletion", "file_number": 61}
+2022/03/17-15:59:47.961745 2088 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000058.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:47.961773 2088 EVENT_LOG_v1 {"time_micros": 1647550787961766, "job": 46, "event": "table_file_deletion", "file_number": 58}
+2022/03/17-15:59:52.940458 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #72. Immutable memtables: 0.
+2022/03/17-15:59:59.438053 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #73. Immutable memtables: 1.
+2022/03/17-15:59:59.438117 19ec (Original Log Time 2022/03/17-15:59:59.438106) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-15:59:59.438175 19ec [db\flush_job.cc:338] [default] [JOB 48] Flushing memtable with next log file: 72
+2022/03/17-15:59:59.438188 19ec [db\flush_job.cc:338] [default] [JOB 48] Flushing memtable with next log file: 73
+2022/03/17-15:59:59.438214 19ec EVENT_LOG_v1 {"time_micros": 1647550799438201, "job": 48, "event": "flush_started", "num_memtables": 2, "num_entries": 2149, "num_deletes": 0, "total_data_size": 94556, "memory_usage": 131488, "flush_reason": "Write Buffer Full"}
+2022/03/17-15:59:59.438222 19ec [db\flush_job.cc:367] [default] [JOB 48] Level-0 flush table #74: started
+2022/03/17-15:59:59.447087 19ec EVENT_LOG_v1 {"time_micros": 1647550799447037, "cf_name": "default", "job": 48, "event": "table_file_creation", "file_number": 74, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550787, "oldest_key_time": 1647550787, "file_creation_time": 1647550799, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-15:59:59.447104 19ec [db\flush_job.cc:431] [default] [JOB 48] Level-0 flush table #74: 1079 bytes OK
+2022/03/17-15:59:59.448868 19ec (Original Log Time 2022/03/17-15:59:59.447123) [db\memtable_list.cc:451] [default] Level-0 commit table #74 started
+2022/03/17-15:59:59.448882 19ec (Original Log Time 2022/03/17-15:59:59.448663) [db\memtable_list.cc:631] [default] Level-0 commit table #74: memtable #1 done
+2022/03/17-15:59:59.448890 19ec (Original Log Time 2022/03/17-15:59:59.448669) [db\memtable_list.cc:631] [default] Level-0 commit table #74: memtable #2 done
+2022/03/17-15:59:59.448898 19ec (Original Log Time 2022/03/17-15:59:59.448711) EVENT_LOG_v1 {"time_micros": 1647550799448689, "job": 48, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-15:59:59.448906 19ec (Original Log Time 2022/03/17-15:59:59.448745) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[1 1 0 0 0 0 0] max score 0.25
+2022/03/17-15:59:59.448918 19ec [db\db_impl\db_impl_files.cc:420] [JOB 48] Try to delete WAL files size 105301, prev total WAL file size 105399, number of live WAL files 3.
+2022/03/17-15:59:59.452259 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000072.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-15:59:59.460063 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000069.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:05.779701 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #75. Immutable memtables: 0.
+2022/03/17-16:00:13.486191 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #76. Immutable memtables: 1.
+2022/03/17-16:00:13.486258 1040 (Original Log Time 2022/03/17-16:00:13.486245) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-16:00:13.486278 1040 [db\flush_job.cc:338] [default] [JOB 50] Flushing memtable with next log file: 75
+2022/03/17-16:00:13.486295 1040 [db\flush_job.cc:338] [default] [JOB 50] Flushing memtable with next log file: 76
+2022/03/17-16:00:13.486325 1040 EVENT_LOG_v1 {"time_micros": 1647550813486312, "job": 50, "event": "flush_started", "num_memtables": 2, "num_entries": 2157, "num_deletes": 0, "total_data_size": 94908, "memory_usage": 131536, "flush_reason": "Write Buffer Full"}
+2022/03/17-16:00:13.486336 1040 [db\flush_job.cc:367] [default] [JOB 50] Level-0 flush table #77: started
+2022/03/17-16:00:13.498782 1040 EVENT_LOG_v1 {"time_micros": 1647550813498731, "cf_name": "default", "job": 50, "event": "table_file_creation", "file_number": 77, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550799, "oldest_key_time": 1647550799, "file_creation_time": 1647550813, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-16:00:13.498802 1040 [db\flush_job.cc:431] [default] [JOB 50] Level-0 flush table #77: 1079 bytes OK
+2022/03/17-16:00:13.500490 1040 (Original Log Time 2022/03/17-16:00:13.498822) [db\memtable_list.cc:451] [default] Level-0 commit table #77 started
+2022/03/17-16:00:13.500507 1040 (Original Log Time 2022/03/17-16:00:13.500324) [db\memtable_list.cc:631] [default] Level-0 commit table #77: memtable #1 done
+2022/03/17-16:00:13.500516 1040 (Original Log Time 2022/03/17-16:00:13.500330) [db\memtable_list.cc:631] [default] Level-0 commit table #77: memtable #2 done
+2022/03/17-16:00:13.500524 1040 (Original Log Time 2022/03/17-16:00:13.500365) EVENT_LOG_v1 {"time_micros": 1647550813500351, "job": 50, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [2, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-16:00:13.500532 1040 (Original Log Time 2022/03/17-16:00:13.500406) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[2 1 0 0 0 0 0] max score 0.50
+2022/03/17-16:00:13.500549 1040 [db\db_impl\db_impl_files.cc:420] [JOB 50] Try to delete WAL files size 105693, prev total WAL file size 105791, number of live WAL files 3.
+2022/03/17-16:00:13.503949 1040 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000075.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:13.511405 1040 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000073.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:21.210624 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #78. Immutable memtables: 0.
+2022/03/17-16:00:29.394884 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #79. Immutable memtables: 1.
+2022/03/17-16:00:29.394976 1178 (Original Log Time 2022/03/17-16:00:29.394963) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-16:00:29.394994 1178 [db\flush_job.cc:338] [default] [JOB 52] Flushing memtable with next log file: 78
+2022/03/17-16:00:29.395004 1178 [db\flush_job.cc:338] [default] [JOB 52] Flushing memtable with next log file: 79
+2022/03/17-16:00:29.395034 1178 EVENT_LOG_v1 {"time_micros": 1647550829395017, "job": 52, "event": "flush_started", "num_memtables": 2, "num_entries": 2149, "num_deletes": 0, "total_data_size": 94556, "memory_usage": 131536, "flush_reason": "Write Buffer Full"}
+2022/03/17-16:00:29.395043 1178 [db\flush_job.cc:367] [default] [JOB 52] Level-0 flush table #80: started
+2022/03/17-16:00:29.403442 1178 EVENT_LOG_v1 {"time_micros": 1647550829403390, "cf_name": "default", "job": 52, "event": "table_file_creation", "file_number": 80, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550813, "oldest_key_time": 1647550813, "file_creation_time": 1647550829, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-16:00:29.403461 1178 [db\flush_job.cc:431] [default] [JOB 52] Level-0 flush table #80: 1079 bytes OK
+2022/03/17-16:00:29.405288 1178 (Original Log Time 2022/03/17-16:00:29.403483) [db\memtable_list.cc:451] [default] Level-0 commit table #80 started
+2022/03/17-16:00:29.405306 1178 (Original Log Time 2022/03/17-16:00:29.405125) [db\memtable_list.cc:631] [default] Level-0 commit table #80: memtable #1 done
+2022/03/17-16:00:29.405315 1178 (Original Log Time 2022/03/17-16:00:29.405131) [db\memtable_list.cc:631] [default] Level-0 commit table #80: memtable #2 done
+2022/03/17-16:00:29.405328 1178 (Original Log Time 2022/03/17-16:00:29.405166) EVENT_LOG_v1 {"time_micros": 1647550829405150, "job": 52, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [3, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-16:00:29.405338 1178 (Original Log Time 2022/03/17-16:00:29.405187) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[3 1 0 0 0 0 0] max score 0.75
+2022/03/17-16:00:29.405351 1178 [db\db_impl\db_impl_files.cc:420] [JOB 52] Try to delete WAL files size 105301, prev total WAL file size 105350, number of live WAL files 3.
+2022/03/17-16:00:29.409245 1178 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000078.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:29.418615 1178 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000076.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:39.258137 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #81. Immutable memtables: 0.
+2022/03/17-16:00:47.740747 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #82. Immutable memtables: 1.
+2022/03/17-16:00:47.740826 19ec (Original Log Time 2022/03/17-16:00:47.740813) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-16:00:47.740842 19ec [db\flush_job.cc:338] [default] [JOB 54] Flushing memtable with next log file: 81
+2022/03/17-16:00:47.740852 19ec [db\flush_job.cc:338] [default] [JOB 54] Flushing memtable with next log file: 82
+2022/03/17-16:00:47.740888 19ec EVENT_LOG_v1 {"time_micros": 1647550847740867, "job": 54, "event": "flush_started", "num_memtables": 2, "num_entries": 2165, "num_deletes": 0, "total_data_size": 95260, "memory_usage": 131520, "flush_reason": "Write Buffer Full"}
+2022/03/17-16:00:47.740898 19ec [db\flush_job.cc:367] [default] [JOB 54] Level-0 flush table #83: started
+2022/03/17-16:00:47.763609 19ec EVENT_LOG_v1 {"time_micros": 1647550847763561, "cf_name": "default", "job": 54, "event": "table_file_creation", "file_number": 83, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550829, "oldest_key_time": 1647550829, "file_creation_time": 1647550847, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-16:00:47.763629 19ec [db\flush_job.cc:431] [default] [JOB 54] Level-0 flush table #83: 1079 bytes OK
+2022/03/17-16:00:47.765452 19ec (Original Log Time 2022/03/17-16:00:47.763648) [db\memtable_list.cc:451] [default] Level-0 commit table #83 started
+2022/03/17-16:00:47.765467 19ec (Original Log Time 2022/03/17-16:00:47.765297) [db\memtable_list.cc:631] [default] Level-0 commit table #83: memtable #1 done
+2022/03/17-16:00:47.765475 19ec (Original Log Time 2022/03/17-16:00:47.765302) [db\memtable_list.cc:631] [default] Level-0 commit table #83: memtable #2 done
+2022/03/17-16:00:47.765482 19ec (Original Log Time 2022/03/17-16:00:47.765332) EVENT_LOG_v1 {"time_micros": 1647550847765317, "job": 54, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [4, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-16:00:47.765489 19ec (Original Log Time 2022/03/17-16:00:47.765356) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[4 1 0 0 0 0 0] max score 1.00
+2022/03/17-16:00:47.765501 19ec [db\db_impl\db_impl_files.cc:420] [JOB 54] Try to delete WAL files size 106085, prev total WAL file size 106232, number of live WAL files 3.
+2022/03/17-16:00:47.765770 1ba8 [db\compaction\compaction_job.cc:1884] [default] [JOB 55] Compacting 4@0 + 1@1 files to L1, score 1.00
+2022/03/17-16:00:47.765802 1ba8 [db\compaction\compaction_job.cc:1888] [default] Compaction start summary: Base version 31 Base level 0, inputs: [83(1079B) 80(1079B) 77(1079B) 74(1079B)], [71(1170B)]
+2022/03/17-16:00:47.765835 1ba8 EVENT_LOG_v1 {"time_micros": 1647550847765817, "job": 55, "event": "compaction_started", "compaction_reason": "LevelL0FilesNum", "files_L0": [83, 80, 77, 74], "files_L1": [71], "score": 1, "input_data_size": 5486}
+2022/03/17-16:00:47.770914 1ba8 [db\compaction\compaction_job.cc:1521] [default] [JOB 55] Generated table #84: 3 keys, 1170 bytes
+2022/03/17-16:00:47.770982 1ba8 EVENT_LOG_v1 {"time_micros": 1647550847770941, "cf_name": "default", "job": 55, "event": "table_file_creation", "file_number": 84, "file_size": 1170, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 150, "index_size": 50, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 120, "raw_average_key_size": 40, "raw_value_size": 8, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 3, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550677, "oldest_key_time": 0, "file_creation_time": 1647550847, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-16:00:47.771307 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000081.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:47.777023 1ba8 [db\compaction\compaction_job.cc:1598] [default] [JOB 55] Compacted 4@0 + 1@1 files to L1 => 1170 bytes
+2022/03/17-16:00:47.777949 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000079.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:47.781485 1ba8 (Original Log Time 2022/03/17-16:00:47.781303) [db\compaction\compaction_job.cc:830] [default] compacted to: files[0 1 0 0 0 0 0] max score 0.00, MB/sec: 1.0 rd, 0.2 wr, level 1, files in(4, 1) out(1) MB in(0.0, 0.0) out(0.0), read-write-amplify(1.5) write-amplify(0.3) OK, records in: 7, records dropped: 4 output_compression: Snappy
+2022/03/17-16:00:47.781541 1ba8 (Original Log Time 2022/03/17-16:00:47.781441) EVENT_LOG_v1 {"time_micros": 1647550847781376, "job": 55, "event": "compaction_finished", "compaction_time_micros": 5262, "compaction_time_cpu_micros": 0, "output_level": 1, "num_output_files": 1, "total_output_size": 1170, "num_input_records": 7, "num_output_records": 3, "num_subcompactions": 1, "output_compression": "Snappy", "num_single_delete_mismatches": 0, "num_single_delete_fallthrough": 0, "lsm_state": [0, 1, 0, 0, 0, 0, 0]}
+2022/03/17-16:00:47.781912 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000083.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:47.781948 1ba8 EVENT_LOG_v1 {"time_micros": 1647550847781937, "job": 55, "event": "table_file_deletion", "file_number": 83}
+2022/03/17-16:00:47.782221 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000080.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:47.782248 1ba8 EVENT_LOG_v1 {"time_micros": 1647550847782240, "job": 55, "event": "table_file_deletion", "file_number": 80}
+2022/03/17-16:00:47.782463 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000077.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:47.782490 1ba8 EVENT_LOG_v1 {"time_micros": 1647550847782480, "job": 55, "event": "table_file_deletion", "file_number": 77}
+2022/03/17-16:00:47.782713 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000074.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:47.782741 1ba8 EVENT_LOG_v1 {"time_micros": 1647550847782732, "job": 55, "event": "table_file_deletion", "file_number": 74}
+2022/03/17-16:00:47.782948 1ba8 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000071.sst immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:00:47.782970 1ba8 EVENT_LOG_v1 {"time_micros": 1647550847782964, "job": 55, "event": "table_file_deletion", "file_number": 71}
+2022/03/17-16:01:14.554616 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #85. Immutable memtables: 0.
+2022/03/17-16:01:23.042565 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #86. Immutable memtables: 1.
+2022/03/17-16:01:23.042635 1b14 (Original Log Time 2022/03/17-16:01:23.042623) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-16:01:23.042649 1b14 [db\flush_job.cc:338] [default] [JOB 57] Flushing memtable with next log file: 85
+2022/03/17-16:01:23.042658 1b14 [db\flush_job.cc:338] [default] [JOB 57] Flushing memtable with next log file: 86
+2022/03/17-16:01:23.042688 1b14 EVENT_LOG_v1 {"time_micros": 1647550883042672, "job": 57, "event": "flush_started", "num_memtables": 2, "num_entries": 2162, "num_deletes": 0, "total_data_size": 95128, "memory_usage": 131528, "flush_reason": "Write Buffer Full"}
+2022/03/17-16:01:23.042697 1b14 [db\flush_job.cc:367] [default] [JOB 57] Level-0 flush table #87: started
+2022/03/17-16:01:23.052147 1b14 EVENT_LOG_v1 {"time_micros": 1647550883052116, "cf_name": "default", "job": 57, "event": "table_file_creation", "file_number": 87, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550847, "oldest_key_time": 1647550847, "file_creation_time": 1647550883, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-16:01:23.052163 1b14 [db\flush_job.cc:431] [default] [JOB 57] Level-0 flush table #87: 1079 bytes OK
+2022/03/17-16:01:23.053919 1b14 (Original Log Time 2022/03/17-16:01:23.052178) [db\memtable_list.cc:451] [default] Level-0 commit table #87 started
+2022/03/17-16:01:23.053932 1b14 (Original Log Time 2022/03/17-16:01:23.053748) [db\memtable_list.cc:631] [default] Level-0 commit table #87: memtable #1 done
+2022/03/17-16:01:23.053939 1b14 (Original Log Time 2022/03/17-16:01:23.053754) [db\memtable_list.cc:631] [default] Level-0 commit table #87: memtable #2 done
+2022/03/17-16:01:23.053945 1b14 (Original Log Time 2022/03/17-16:01:23.053793) EVENT_LOG_v1 {"time_micros": 1647550883053777, "job": 57, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [1, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-16:01:23.053954 1b14 (Original Log Time 2022/03/17-16:01:23.053814) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[1 1 0 0 0 0 0] max score 0.25
+2022/03/17-16:01:23.053967 1b14 [db\db_impl\db_impl_files.cc:420] [JOB 57] Try to delete WAL files size 105938, prev total WAL file size 105987, number of live WAL files 3.
+2022/03/17-16:01:23.057624 1b14 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000085.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:01:23.095488 1b14 [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000082.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:02:03.691933 3c80 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #88. Immutable memtables: 0.
+2022/03/17-16:07:59.060632 3c64 [db\db_impl\db_impl.cc:902] ------- DUMPING STATS -------
+2022/03/17-16:07:59.060692 3c64 [db\db_impl\db_impl.cc:903] 
+** DB Stats **
+Uptime(secs): 603.0 total, 600.0 interval
+Cumulative writes: 55K writes, 55K keys, 55K commit groups, 1.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 55K writes, 0 syncs, 55130.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 55K writes, 55K keys, 55K commit groups, 1.0 writes per commit group, ingest: 2.58 MB, 0.00 MB/s
+Interval WAL: 55K writes, 0 syncs, 55127.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 603.0 total, 600.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 603.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2022/03/17-16:17:59.061785 3c64 [db\db_impl\db_impl.cc:902] ------- DUMPING STATS -------
+2022/03/17-16:17:59.061812 3c64 [db\db_impl\db_impl.cc:903] 
+** DB Stats **
+Uptime(secs): 1203.0 total, 600.0 interval
+Cumulative writes: 55K writes, 55K keys, 55K commit groups, 1.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 55K writes, 0 syncs, 55130.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 1203.0 total, 600.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 1203.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2022/03/17-16:27:59.067906 3c64 [db\db_impl\db_impl.cc:902] ------- DUMPING STATS -------
+2022/03/17-16:27:59.067935 3c64 [db\db_impl\db_impl.cc:903] 
+** DB Stats **
+Uptime(secs): 1803.0 total, 600.0 interval
+Cumulative writes: 55K writes, 55K keys, 55K commit groups, 1.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 55K writes, 0 syncs, 55130.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 1803.0 total, 600.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 1803.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2022/03/17-16:37:59.076020 3c64 [db\db_impl\db_impl.cc:902] ------- DUMPING STATS -------
+2022/03/17-16:37:59.076098 3c64 [db\db_impl\db_impl.cc:903] 
+** DB Stats **
+Uptime(secs): 2403.1 total, 600.0 interval
+Cumulative writes: 55K writes, 55K keys, 55K commit groups, 1.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 55K writes, 0 syncs, 55130.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 2403.1 total, 600.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      1/0    1.05 KB   0.3      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+  L1      1/0    1.14 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.3      1.1      0.2      0.03              0.00         6    0.005      41     23
+ Sum      2/0    2.20 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.3      0.1      0.1      0.29              0.00        31    0.009      41     23
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Low      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      1.1      0.2      0.03              0.00         6    0.005      41     23
+High      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.1      0.26              0.00        25    0.010       0      0
+Uptime(secs): 2403.1 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.3 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2022/03/17-16:39:48.656026 1a30 [db\db_impl\db_impl_compaction_flush.cc:1482] [default] Manual flush start.
+2022/03/17-16:39:48.656403 1a30 [db\db_impl\db_impl_write.cc:1739] [default] New memtable created with log file: #89. Immutable memtables: 1.
+2022/03/17-16:39:48.656508 19ec (Original Log Time 2022/03/17-16:39:48.656491) [db\db_impl\db_impl_compaction_flush.cc:2402] Calling FlushMemTableToOutputFile with column family [default], flush slots available 8, compaction slots available 1, flush slots scheduled 1, compaction slots scheduled 0
+2022/03/17-16:39:48.656523 19ec [db\flush_job.cc:338] [default] [JOB 59] Flushing memtable with next log file: 88
+2022/03/17-16:39:48.656532 19ec [db\flush_job.cc:338] [default] [JOB 59] Flushing memtable with next log file: 89
+2022/03/17-16:39:48.656556 19ec EVENT_LOG_v1 {"time_micros": 1647553188656543, "job": 59, "event": "flush_started", "num_memtables": 2, "num_entries": 1185, "num_deletes": 0, "total_data_size": 52140, "memory_usage": 74272, "flush_reason": "Manual Flush"}
+2022/03/17-16:39:48.656563 19ec [db\flush_job.cc:367] [default] [JOB 59] Level-0 flush table #90: started
+2022/03/17-16:39:48.663518 19ec EVENT_LOG_v1 {"time_micros": 1647553188663452, "cf_name": "default", "job": 59, "event": "table_file_creation", "file_number": 90, "file_size": 1079, "file_checksum": "", "file_checksum_func_name": "Unknown", "table_properties": {"data_size": 58, "index_size": 49, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 18, "raw_key_size": 40, "raw_average_key_size": 40, "raw_value_size": 2, "raw_average_value_size": 2, "num_data_blocks": 1, "num_entries": 1, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "rocksdb.BuiltinBloomFilter", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "Snappy", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1647550883, "oldest_key_time": 1647550883, "file_creation_time": 1647553188, "db_id": "ead0e5d5-a634-11ec-9e87-001a7dda710a", "db_session_id": "1E13AT5XGJNE4N2KKP3M"}}
+2022/03/17-16:39:48.663536 19ec [db\flush_job.cc:431] [default] [JOB 59] Level-0 flush table #90: 1079 bytes OK
+2022/03/17-16:39:48.665260 19ec (Original Log Time 2022/03/17-16:39:48.663554) [db\memtable_list.cc:451] [default] Level-0 commit table #90 started
+2022/03/17-16:39:48.665274 19ec (Original Log Time 2022/03/17-16:39:48.665136) [db\memtable_list.cc:631] [default] Level-0 commit table #90: memtable #1 done
+2022/03/17-16:39:48.665281 19ec (Original Log Time 2022/03/17-16:39:48.665141) [db\memtable_list.cc:631] [default] Level-0 commit table #90: memtable #2 done
+2022/03/17-16:39:48.665288 19ec (Original Log Time 2022/03/17-16:39:48.665168) EVENT_LOG_v1 {"time_micros": 1647553188665154, "job": 59, "event": "flush_finished", "output_compression": "Snappy", "lsm_state": [2, 1, 0, 0, 0, 0, 0], "immutable_memtables": 0}
+2022/03/17-16:39:48.665295 19ec (Original Log Time 2022/03/17-16:39:48.665187) [db\db_impl\db_impl_compaction_flush.cc:235] [default] Level summary: files[2 1 0 0 0 0 0] max score 0.50
+2022/03/17-16:39:48.665307 19ec [db\db_impl\db_impl_files.cc:420] [JOB 59] Try to delete WAL files size 58065, prev total WAL file size 58065, number of live WAL files 3.
+2022/03/17-16:39:48.668441 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000088.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:39:48.668592 19ec [file\delete_scheduler.cc:73] Deleted file C:\Users\jared\dev\Kiln\nethermind\src\nethermind\nethermind.runner\bin\Release\net6.0\nethermind_db/kiln\bloom/000086.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/17-16:39:48.668618 1a30 [db\db_impl\db_impl_compaction_flush.cc:1493] [default] Manual flush finished, status: OK
+2022/03/17-16:39:48.668640 1a30 [db\db_impl\db_impl.cc:447] Shutdown: canceling all background work
+2022/03/17-16:39:48.672153 1a30 [db\db_impl\db_impl.cc:625] Shutdown complete
