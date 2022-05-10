@@ -38,5 +38,3 @@ jobs:
          go build .
          cd ..
          ls
-         cd ..
-         ls
