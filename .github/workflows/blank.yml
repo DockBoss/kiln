@@ -48,3 +48,4 @@ jobs:
         run: |
          ls
          go build .
+         hive.exe --client merge-nethermind,merge-nethermind --sim ethereum/engine
