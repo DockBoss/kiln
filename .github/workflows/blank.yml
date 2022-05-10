@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checking out Nethermind
         uses: actions/checkout@v2
+        with: 
+          repository: 'NethermindEth/nethermind'
       - name: Unshallow fetching
         run: git fetch --unshallow
       - name: Setting up QEMU
