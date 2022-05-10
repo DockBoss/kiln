@@ -32,3 +32,24 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Installing Linux packages
+        run: |
+         sudo apt-get update
+         sudo apt-get install libsnappy-dev libc6-dev libc6 build-essential
+      - name: Setup Go environment
+        uses: actions/setup-go@v3.0.0
+        with:
+         go-version: '>=1.17.0'
+      - name: Check out Hive
+        uses: actions/checkout@v2
+        with:
+          repository: 'DockBoss/hive'
+      - name: Build Hive
+        run: |
+         cd ./hive
+         go build .
+      - name: Run Merge Hive Test
+        run: |
+         cd hive
+         ls
+         hive.exe --client merge-nethermind,merge-nethermind --sim ethereum/engine
