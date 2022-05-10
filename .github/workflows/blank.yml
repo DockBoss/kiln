@@ -53,4 +53,5 @@ jobs:
          cd ..
          ls
          cd ..
+         cd _temp
          ls
