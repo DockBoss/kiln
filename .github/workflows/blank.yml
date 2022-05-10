@@ -47,3 +47,4 @@ jobs:
       - name: Build Hive
         run: |
          ls
+         go build .
