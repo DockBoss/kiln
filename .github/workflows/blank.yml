@@ -46,10 +46,4 @@ jobs:
           repository: 'DockBoss/hive'
       - name: Build Hive
         run: |
-         cd hive
-         go build .
-      - name: Run Merge Hive Test
-        run: |
-         cd hive
          ls
-         hive.exe --client merge-nethermind,merge-nethermind --sim ethereum/engine
