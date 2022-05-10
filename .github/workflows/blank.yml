@@ -46,7 +46,7 @@ jobs:
           repository: 'DockBoss/hive'
       - name: Build Hive
         run: |
-         cd ./hive
+         cd hive
          go build .
       - name: Run Merge Hive Test
         run: |
