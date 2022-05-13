@@ -26,14 +26,14 @@ jobs:
           repository: 'NethermindEth/nethermind'
       - name: Unshallow fetching
         run: ls
-      - name: Installing Linux packages
+      - name: Unshallow fetching
         run: |
-         sudo apt-get update
-         sudo apt-get install libsnappy-dev libc6-dev libc6 build-essential
-      - name: Setup Go environment
-        uses: actions/setup-go@v3.0.0
-        with:
-         go-version: '>=1.17.0'
+          cd ..
+          ls      
+      - name: Unshallow fetching
+        run: |
+          cd ../..
+          ls      
       - name: Check out Hive
         uses: actions/checkout@v2
         with:
