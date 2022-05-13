@@ -29,6 +29,7 @@ jobs:
       - name: Unshallow fetching
         run: |
           cd ..
+          cd kiln
           ls      
       - name: Unshallow fetching
         run: |
@@ -39,5 +40,4 @@ jobs:
           repository: 'DockBoss/hive'
       - name: Build Hive
         run: |
-         cd ../../../..
          ls
