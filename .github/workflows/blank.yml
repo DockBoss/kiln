@@ -24,10 +24,8 @@ jobs:
         uses: actions/checkout@v2
         with: 
           repository: 'NethermindEth/nethermind'
-        run: |
-          ls
       - name: Unshallow fetching
-        run: git fetch --unshallow
+        run: ls
       - name: Installing Linux packages
         run: |
          sudo apt-get update
