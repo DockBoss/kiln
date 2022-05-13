@@ -32,7 +32,6 @@ jobs:
           ls      
       - name: Unshallow fetching
         run: |
-          cd ../..
           ls      
       - name: Check out Hive
         uses: actions/checkout@v2
