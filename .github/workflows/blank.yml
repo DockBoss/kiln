@@ -52,4 +52,5 @@ jobs:
       - name: Build Hive
         run: |
          cd ..
+         cd kiln
          ls
