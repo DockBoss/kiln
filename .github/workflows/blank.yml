@@ -40,4 +40,5 @@ jobs:
           repository: 'DockBoss/hive'
       - name: Build Hive
         run: |
+         cd ..
          ls
