@@ -33,7 +33,7 @@ jobs:
         uses: docker/setup-buildx-action@v1
       - name: Building Nethermind Image
         run: |
-          docker buildx build --platform=linux/amd64,linux/arm64 -o GITHUB_WORKSPACE -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
+          docker buildx build --platform=linux/amd64,linux/arm64 -o GITHUB_WORKSPACE/nethermind -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
           ls
           cd ..
           ls
@@ -51,5 +51,6 @@ jobs:
           repository: 'DockBoss/hive'
       - name: Build Hive
         run: |
-         cd GITHUB_WORKSPACE
+         ls
+         cd ..
          ls
