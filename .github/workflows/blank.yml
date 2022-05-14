@@ -1,45 +1,34 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
+name: Merge Hive Test
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    defaults:
+      run:
+        working-directory: ./test
     steps:
       - name: Checking out Nethermind
         uses: actions/checkout@v2
         with: 
           repository: 'NethermindEth/nethermind'
       - name: Unshallow fetching
-        run: ls
-      - name: Unshallow fetching
+        run: git fetch --unshallow
+      - name: Setting up QEMU
+        uses: docker/setup-qemu-action@v1
+      - name: Setting up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v1
+      - name: Building Nethermind Image
         run: |
-          cd ..
-          cd kiln
-          ls      
-      - name: Unshallow fetching
-        run: |
-          ls      
+          docker buildx build --platform=linux/amd64,linux/arm64 -o type=local,dest=./test/nethermind -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
       - name: Check out Hive
         uses: actions/checkout@v2
         with:
           repository: 'DockBoss/hive'
       - name: Build Hive
         run: |
-         cd ..
          ls
-         cd ../../../..
+         cd ./test/nethermind
+         ls
