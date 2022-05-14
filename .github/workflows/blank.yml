@@ -21,22 +21,8 @@ jobs:
       - name: Building Nethermind Image
         run: |
           docker buildx build --platform=linux/amd64,linux/arm64 -o type=local,dest=image -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
-      - name: Upload Docker Image
-        uses: actions/upload-artifact@v3
-        with:
-          name: nethermind
-          path: image
-      - name: Check out Hive
-        uses: actions/checkout@v2
-        with:
-          repository: 'DockBoss/hive'
-      - name: Download Docker Image
-        uses: actions/download-artifact@v3
-        with:
-          name: nethermind
-          path: image
-      - name: test
+      - name: where the fuck does this get stored?
         run: |
-         ls
-         cd ..
+         ls 
+         cd test
          ls
