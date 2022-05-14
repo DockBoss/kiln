@@ -34,7 +34,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: nethermind
-          path: image
+          path: image/linux_amd64
       - name: test
         run: |
          ls
