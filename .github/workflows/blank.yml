@@ -23,6 +23,7 @@ jobs:
           docker buildx build --platform=linux/amd64 -o type=local,dest=image -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
       - name: test
         run: |
-         cd image/linux_amd64
+         ls
+         cd image
          ls
          
