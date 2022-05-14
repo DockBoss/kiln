@@ -23,6 +23,5 @@ jobs:
           docker buildx build --platform=linux/amd64,linux/arm64 -o type=local,dest=image -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
       - name: where the fuck does this get stored?
         run: |
-         ls 
-         cd image
+         cd image/linux_amd64
          ls
