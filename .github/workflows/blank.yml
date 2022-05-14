@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./test
+        working-directory: /work
     steps:
       - name: Checking out Nethermind
         uses: actions/checkout@v2
