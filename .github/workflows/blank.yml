@@ -25,7 +25,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: nethermind
-          path: image
+          path: image/linux_amd64
       - name: Check out Hive
         uses: actions/checkout@v2
         with:
