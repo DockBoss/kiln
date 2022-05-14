@@ -19,7 +19,7 @@ jobs:
         uses: docker/setup-buildx-action@v1
       - name: Building Nethermind Image
         run: |
-          docker buildx build --platform=linux/amd64,linux/arm64 -o type=local,dest=kiln/nethermind -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
+          docker buildx build --platform=linux/amd64,linux/arm64 -o type=local,dest=_temp -t nethermind:test --build-arg GIT_COMMIT=$(git log -1 --format=%h) .
       - name: Check out Hive
         uses: actions/checkout@v2
         with:
