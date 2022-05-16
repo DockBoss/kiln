@@ -25,7 +25,7 @@ jobs:
           tags: nethermind:kiln_shadowfork
           outputs: type=docker,dest=/tmp/image.tar
       - name: Upload Docker Image as Artifact
-        uses: actions/artifact-upload@v2
+        uses: actions/upload-artifact@v2
         with:
           name: image
           path: /tmp/image.tar
