@@ -12,7 +12,6 @@ jobs:
           repository: 'NethermindEth/nethermind'
       - name: Unshallow fetching
         run: git fetch --unshallow
-      - run: mkdir image
       - name: Setting up QEMU
         uses: docker/setup-qemu-action@v1
       - name: Setting up Docker Buildx
@@ -49,6 +48,7 @@ jobs:
           name: image
           path: /tmp
       - name: Load Docker Image
+        run: docker load --input /tmp/image.tar
+      - name: run hive
         run: |
-         docker load --input /tmp/image.tar
-         docker image ls -a
+         ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine
