@@ -52,8 +52,10 @@ jobs:
       - name: run hive
         run: |
          ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine
-      - name: Upload Hive Results
-        uses: actions/upload-artifact@v2
-        with:
-          name: results
-          path: ~/workspace/logs/*.json
+      - name: help
+        run: | 
+         ls
+         cd workspace
+         ls
+         cd logs
+         la
