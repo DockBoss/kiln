@@ -58,4 +58,4 @@ jobs:
          cd workspace
          ls
          cd logs
-         la
+         ls
