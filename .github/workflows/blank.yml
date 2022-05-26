@@ -41,7 +41,7 @@ jobs:
         run: docker load --input /tmp/image.tar
       - name: Run Merge Hive
         run: |
-         ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine --sim.timelimit 10
+         ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine --sim.limit /Invalid Terminal Block in ForkchoiceUpdated
       - name: Upload Hive Results
         uses: actions/upload-artifact@v2
         with:
