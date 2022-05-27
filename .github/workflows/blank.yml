@@ -41,7 +41,7 @@ jobs:
         run: docker load --input /tmp/image.tar
       - name: Run Merge Hive
         run: |
-         ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine --sim.limit /Invalid Terminal Block in ForkchoiceUpdated
+         ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine
       - name: Upload Hive Results
         uses: actions/upload-artifact@v2
         with:
@@ -57,6 +57,12 @@ jobs:
           repository: DockBoss/hiveResults
       - name: Set Up Python
         uses: actions/setup-python@v3
-      - name: Print Results
+      - name: Total Results
         run: |
          python res.py
+      - name: Results
+        if: ${{ env.NUM_FAILED }} != 0
+        uses: actions/github-script@v3
+        with:
+          script: |
+            core.setFailed('The following tests failed: env.TESTS_FAILED')
