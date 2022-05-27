@@ -20,6 +20,7 @@ jobs:
         uses: docker/build-push-action@v2
         with: 
           context: .
+          push: false
           file: ./Dockerfile
           tags: nethermind:kiln_shadowfork
           outputs: type=docker,dest=/tmp/image.tar
