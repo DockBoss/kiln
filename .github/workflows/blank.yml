@@ -45,7 +45,7 @@ jobs:
         run: docker load --input /tmp/image.tar
       - name: Run Merge Hive
         run: |
-         ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine
+          ./hive --client merge-nethermind,merge-nethermind --sim ethereum/engine
       - name: Upload Hive Results
         uses: actions/upload-artifact@v2
         with:
