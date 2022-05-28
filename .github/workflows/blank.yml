@@ -69,4 +69,4 @@ jobs:
         uses: actions/github-script@v3
         with:
           script: |
-            core.setFailed('The following tests failed: env.TESTS_FAILED')
+            core.setFailed('The following $NUM_FAILED tests failed: $TESTS_FAILED')
