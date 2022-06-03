@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
         with: 
           repository: 'NethermindEth/nethermind'
-          ref: kiln
+          ref: master
       - name: Unshallow fetching
         run: git fetch --unshallow
       - name: Setting up QEMU
@@ -25,7 +25,7 @@ jobs:
           push: false
           platforms: linux/amd64
           file: ./Dockerfile
-          tags: nethermind:kiln_shadowfork
+          tags: nethermind:test-test-test
           outputs: type=docker,dest=/tmp/image.tar
       - name: Installing Linux packages
         run: |
@@ -38,7 +38,7 @@ jobs:
       - name: Check out Hive
         uses: actions/checkout@v2
         with:
-          repository: 'ethereum/hive'
+          repository: 'DockBoss/hive'
       - name: Build Hive
         run: go build .
       - name: Load Docker Image
