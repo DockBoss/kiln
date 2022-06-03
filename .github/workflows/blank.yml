@@ -1,7 +1,10 @@
 name: Merge Hive Test
-on:
+on: 
   push:
-    branches: [ main ]
+    tags:
+    - '*'
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
