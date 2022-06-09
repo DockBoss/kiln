@@ -1,3 +1,23 @@
+name: '[RUN] Hive Tests'
+   
+on: 
+  push:
+    tags:
+    - '*'
+    inputs:
+      testSuite:
+        description: 'Test suite'
+        required: true
+        default: 'ethereum/engine' 
+        type: choice
+        options:
+        - ethereum/engine        
+      hive:
+        description: 'Repository for hive tests'
+        required: true
+        default: 'ethereum/hive'
+        type: string
+      limit:
         description: 'Limit for hive tests'
         required: false
         type: string
@@ -37,7 +57,13 @@
 
 jobs:
   build-dockers:
-	@@ -57,27 +67,28 @@
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output Inputs
+        run: echo "${{ toJSON(github.event.inputs) }}"
+      - name: Checking out Nethermind
+        uses: actions/checkout@v2
+      - name: Unshallow fetching
         run: git fetch --unshallow
       - name: Setting up QEMU
         uses: docker/setup-qemu-action@v1
@@ -66,3 +92,26 @@ jobs:
       - name: Change Hive configuration
         run: sed -i 's#FROM nethermindeth/hive:$branch#FROM nethermind:test-${{ github.sha }}#g' clients/nethermind/Dockerfile
       - name: Build Hive
+        run: go build .
+      - name: Load Docker Image
+        run: docker load --input /tmp/image.tar
+      - name: Run Hive
+        if: "${{ github.event.inputs.limit == '' }}"
+        run: ./hive --client nethermind --sim ${{ github.event.inputs.testSuite }}
+      - name: Run Hive With Limit
+        if: "${{ github.event.inputs.limit != '' }}"
+        run: ./hive --client nethermind --sim ${{ github.event.inputs.testSuite }} --sim.limit ${{ github.event.inputs.limit }}
+      - name: Upload Hive Results
+        uses: actions/upload-artifact@v2
+        with:
+          name: results
+          path: workspace
+          retention-days: 7
+      - name: Move Results
+        run: mv workspace /tmp
+      - name: Set Up Python
+        uses: actions/setup-python@v3
+      - name: Checking out Nethermind
+        uses: actions/checkout@v2        
+      - name: Print Results
+        run: python scripts/testing/hiveTestResultPrinter.py /tmp/workspace/logs/*.json
